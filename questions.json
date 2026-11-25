@@ -1,0 +1,6214 @@
+{
+  "title": "26题库",
+  "sourceUrl": "https://mooc1.chaoxing.com/mooc-ans/mooc2/work/dowork?courseId=252308789&classId=155191393&cpi=584164248&workId=58865122&answerId=0&standardEnc=d85d14502b45035719a7dba8802c9b65&enc=a680393b101cdf4a6c4ffcc7375809ff",
+  "scrapedAt": "2026-11-25T13:12:13.062Z",
+  "sections": [
+    "一. 单选题（共78题，39分）",
+    "二. 多选题（共40题，20分）",
+    "三. 判断题（共64题，34.4分）",
+    "四. 连线题（共11题，6.6分）"
+  ],
+  "hasAnswers": true,
+  "answerNotice": "提交试交后已成功获取全部 193/193 道题目的官方正确答案（其中 63 道附带答案解析）。",
+  "questions": [
+    {
+      "id": 1,
+      "qid": "406483832",
+      "type": "单选题",
+      "score": "",
+      "stem": "人工智能概念首次正式提出的会议是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "图灵会议"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "达特茅斯会议"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "日内瓦会议"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "阿西洛马会议"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 2,
+      "qid": "406483833",
+      "type": "单选题",
+      "score": "",
+      "stem": "图灵测试中，机器被判定具备人类智能的标准:多次测试后机器让超过( )的测试者误判是人还是机器( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "20%"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "30%"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "50%"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "70%"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 3,
+      "qid": "406483834",
+      "type": "单选题",
+      "score": "",
+      "stem": "下列不属于人工智能三大核心要素的是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "海量数据"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "强大算力"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "高端机箱"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "先进算法"
+        }
+      ],
+      "answer": "C",
+      "analysis": ""
+    },
+    {
+      "id": 4,
+      "qid": "406483835",
+      "type": "单选题",
+      "score": "",
+      "stem": "AIGC 的中文全称是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "用户生成内容"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "专家生成内容"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "人工智能生成内容"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "机器翻译内容"
+        }
+      ],
+      "answer": "C",
+      "analysis": ""
+    },
+    {
+      "id": 5,
+      "qid": "406483836",
+      "type": "单选题",
+      "score": "",
+      "stem": "大语言模型 “幻觉” 指的是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "模型运行卡顿"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "生成虚构、不符合事实的信息"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "无法理解中文"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "输出速度很慢"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 6,
+      "qid": "406483837",
+      "type": "单选题",
+      "score": "",
+      "stem": "六何分析法(5W1H)不包含下面哪一项( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "何人"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "何处"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "何价"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "何故"
+        }
+      ],
+      "answer": "C",
+      "analysis": ""
+    },
+    {
+      "id": 7,
+      "qid": "406483838",
+      "type": "单选题",
+      "score": "",
+      "stem": "下面哪一项属于提示词进阶技巧( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "投喂示例"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "只写简短词语"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "不提供背景信息"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "使用歧义词汇"
+        }
+      ],
+      "answer": "A",
+      "analysis": ""
+    },
+    {
+      "id": 8,
+      "qid": "406483839",
+      "type": "单选题",
+      "score": "",
+      "stem": "以下工具中不属于字节跳动产品的是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "豆包"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "即梦 AI"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "扣子"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "Kimi AI"
+        }
+      ],
+      "answer": "D",
+      "analysis": ""
+    },
+    {
+      "id": 9,
+      "qid": "406483840",
+      "type": "单选题",
+      "score": "",
+      "stem": "1950 年，发表论文提出图灵测试的科学家是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "马文・明斯基"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "艾伦・图灵"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "麦卡锡"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "尼尔森"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 10,
+      "qid": "406483841",
+      "type": "单选题",
+      "score": "",
+      "stem": "ChatGPT 发布的时间为( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "2020 年 11 月"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "2021 年 11 月"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "2022 年 11 月"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "2023 年 11 月"
+        }
+      ],
+      "answer": "C",
+      "analysis": ""
+    },
+    {
+      "id": 11,
+      "qid": "406483848",
+      "type": "单选题",
+      "score": "",
+      "stem": "在AIGC中，提示词的核心作用是什么?",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "美化界面"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "存储数据"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "提高计算速度"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "连接用户意图与AI生成内容"
+        }
+      ],
+      "answer": "D",
+      "analysis": ""
+    },
+    {
+      "id": 12,
+      "qid": "406483849",
+      "type": "单选题",
+      "score": "",
+      "stem": "ICIO框架中，第一个“I”代表什么?",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "Idea"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "Instruction"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "Input"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "Intelligence"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 13,
+      "qid": "406483850",
+      "type": "单选题",
+      "score": "",
+      "stem": "下列哪一项属于 UGC 的特点( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "产出少质量高"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "由 AI 自动生成"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "生产成本极高"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "普通用户创作，内容质量参差不齐"
+        }
+      ],
+      "answer": "D",
+      "analysis": ""
+    },
+    {
+      "id": 14,
+      "qid": "406483851",
+      "type": "单选题",
+      "score": "",
+      "stem": "CRISPE 框架中E 的含义是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "Explain"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "Estimate"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "Evaluate"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "Experiment"
+        }
+      ],
+      "answer": "D",
+      "analysis": ""
+    },
+    {
+      "id": 15,
+      "qid": "406483852",
+      "type": "单选题",
+      "score": "",
+      "stem": "在提示词技巧中，分步提问主要作用是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "消除语句歧义，明确描述对象"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "给 AI 设定身份角色，限定 AI 能力"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "将复杂任务拆解，分多轮逐步细化完善答案"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "直接生成最终结果，不需要多次对话"
+        }
+      ],
+      "answer": "C",
+      "analysis": ""
+    },
+    {
+      "id": 16,
+      "qid": "406483862",
+      "type": "单选题",
+      "score": "",
+      "stem": "关于“AI绘画”的定义，下列说法正确的是？",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "利用人工智能模型根据输入（如文本描述、草图）自动生成图像的技术"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "利用Photoshop等软件手工绘制图像的技术"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "将纸质画作通过扫描仪数字化的技术"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "使用相机拍摄并进行后期调色的技术"
+        }
+      ],
+      "answer": "A",
+      "analysis": "AI绘画是指利用人工智能模型根据输入（如文本描述、草图）自动生成图像的技术。",
+      "knowledgePoints": [
+        "AI绘画的定义与特点"
+      ]
+    },
+    {
+      "id": 17,
+      "qid": "406483863",
+      "type": "单选题",
+      "score": "",
+      "stem": "下列哪一项不属于AI绘画的特点？",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "无需手工绘制，即可快速产出多种风格的绘画作品"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "能在短时间内生成高质量、逼真的视觉效果"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "生成结果固定，不支持多轮迭代优化"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "可为设计、插画、广告等领域提供高效辅助，降低创作门槛"
+        }
+      ],
+      "answer": "C",
+      "analysis": "AI绘画支持多轮迭代优化，可满足创作者对主题、色彩、构图的多样化需求，故“生成结果固定、不支持多轮迭代优化”说法错误。",
+      "knowledgePoints": [
+        "AI绘画的定义与特点"
+      ]
+    },
+    {
+      "id": 18,
+      "qid": "406483864",
+      "type": "单选题",
+      "score": "",
+      "stem": "AI绘画技术原理中的“文生图”是指？",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "根据文本描述自动生成图像"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "根据已有图像生成新的图像"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "将图像内容转换为文字描述"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "对图像进行智能压缩处理"
+        }
+      ],
+      "answer": "A",
+      "analysis": "文生图即根据文本描述自动生成图像，是AI绘画的基础原理之一。",
+      "knowledgePoints": [
+        "AI绘画的技术原理"
+      ]
+    },
+    {
+      "id": 19,
+      "qid": "406483865",
+      "type": "单选题",
+      "score": "",
+      "stem": "“图生图”的技术原理是指？",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "根据文字描述生成图像"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "以已有图像为基础生成新的图像"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "识别并标注图像中的物体"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "将多张图像拼接为一张全景图"
+        }
+      ],
+      "answer": "B",
+      "analysis": "图生图是以已有图像为输入基础，结合提示词生成新的图像。",
+      "knowledgePoints": [
+        "AI绘画的技术原理"
+      ]
+    },
+    {
+      "id": 20,
+      "qid": "406483866",
+      "type": "单选题",
+      "score": "",
+      "stem": "图像生成是一个跨学科领域，主要涉及下列哪些方面的知识？",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "文学、历史、哲学"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "化学、生物、医学"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "深度学习、计算机视觉、艺术创作"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "音乐、舞蹈、戏剧"
+        }
+      ],
+      "answer": "C",
+      "analysis": "图像生成涉及深度学习、计算机视觉、艺术创作等多个领域的知识。",
+      "knowledgePoints": [
+        "AI绘画的技术原理"
+      ]
+    },
+    {
+      "id": 21,
+      "qid": "406483867",
+      "type": "单选题",
+      "score": "",
+      "stem": "在图像生成技术中，缩写GAN指的是？",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "循环神经网络"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "生成对抗网络"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "卷积神经网络"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "深度信念网络"
+        }
+      ],
+      "answer": "B",
+      "analysis": "GAN（Generative Adversarial Network）即生成对抗网络，是图像生成的重要技术之一。",
+      "knowledgePoints": [
+        "AI绘画的技术原理"
+      ]
+    },
+    {
+      "id": 22,
+      "qid": "406483868",
+      "type": "单选题",
+      "score": "",
+      "stem": "下列关于提示词（Prompt）的说法，正确的是？",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "提示词的内容对生成结果没有任何影响"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "提示词越简短，生成效果越好"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "提示词只能使用英文书写"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "提示词越具体、越有画面感，生成结果越符合预期"
+        }
+      ],
+      "answer": "D",
+      "analysis": "提示词越具体、越有画面感，AI生成的结果越符合预期。",
+      "knowledgePoints": [
+        "提示词编写技巧"
+      ]
+    },
+    {
+      "id": 23,
+      "qid": "406483869",
+      "type": "单选题",
+      "score": "",
+      "stem": "LiblibAI（哩布哩布）是基于哪种模型提供在线生图服务的？",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "Stable Diffusion模型"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "GPT系列模型"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "文心大模型"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "豆包大模型"
+        }
+      ],
+      "answer": "A",
+      "analysis": "LiblibAI基于Stable Diffusion模型提供在线生图服务，无需本地部署。",
+      "knowledgePoints": [
+        "主流AIGC图片生成平台"
+      ]
+    },
+    {
+      "id": 24,
+      "qid": "406483870",
+      "type": "单选题",
+      "score": "",
+      "stem": "豆包AI助手是由哪家公司推出的？",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "百度"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "字节跳动"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "阿里巴巴"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "腾讯"
+        }
+      ],
+      "answer": "B",
+      "analysis": "豆包是字节跳动推出的AI助手，内置强大的图片生成功能，基于豆包大模型。",
+      "knowledgePoints": [
+        "主流AIGC图片生成平台"
+      ]
+    },
+    {
+      "id": 25,
+      "qid": "406483871",
+      "type": "单选题",
+      "score": "",
+      "stem": "文心一言内置的AI图片生成功能是？",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "通义万相"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "即梦AI"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "文心一格"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "LiblibAI"
+        }
+      ],
+      "answer": "C",
+      "analysis": "文心一言是百度推出的AI助手，内置文心一格图片生成功能，基于文心大模型。",
+      "knowledgePoints": [
+        "主流AIGC图片生成平台"
+      ]
+    },
+    {
+      "id": 26,
+      "qid": "406483872",
+      "type": "单选题",
+      "score": "",
+      "stem": "通义万相是哪个公司推出的AI绘画平台？",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "字节跳动"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "阿里云"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "百度"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "腾讯"
+        }
+      ],
+      "answer": "B",
+      "analysis": "通义万相是阿里云推出的AI绘画平台，针对电商场景进行了深度优化。",
+      "knowledgePoints": [
+        "主流AIGC图片生成平台"
+      ]
+    },
+    {
+      "id": 27,
+      "qid": "406483873",
+      "type": "单选题",
+      "score": "",
+      "stem": "课堂实践中，生成电商产品图的提示词公式是？",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "主体 + 背景 + 滤镜 + 文字"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "颜色 + 形状 + 大小 + 位置"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "产品 + 价格 + 品牌 + 卖点"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "产品类型 + 数量约束 + 场景设置 + 细化要求"
+        }
+      ],
+      "answer": "D",
+      "analysis": "电商产品图提示词公式为“产品类型 + 数量约束 + 场景设置 + 细化要求”，还可补充用途说明。",
+      "knowledgePoints": [
+        "AIGC图像生成实践"
+      ]
+    },
+    {
+      "id": 28,
+      "qid": "406483892",
+      "type": "单选题",
+      "score": "",
+      "stem": "在AI视频生成流程中，以下哪一项是AI视频生成的第一步( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "视频合成"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "数据收集与预处理"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "后处理"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "评估与迭代"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 29,
+      "qid": "406483893",
+      "type": "单选题",
+      "score": "",
+      "stem": "Vlog制作任务中，不属于剪映软件功能的是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "AI识别字幕"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "AI文本朗读配音"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "直接文本生成AI视频片段"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "视频变速、添加转场效果"
+        }
+      ],
+      "answer": "C",
+      "analysis": ""
+    },
+    {
+      "id": 30,
+      "qid": "406483894",
+      "type": "单选题",
+      "score": "",
+      "stem": "电影行业标准帧率一般为( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "24fps"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "30fps"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "60fps"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "25fps"
+        }
+      ],
+      "answer": "A",
+      "analysis": ""
+    },
+    {
+      "id": 31,
+      "qid": "406483895",
+      "type": "单选题",
+      "score": "",
+      "stem": "使用即梦AI做视频，为了减少AIGC“幻觉”，提升画面内容准确度，可以优先采用哪种方式( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "提高生成时长"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "图片生视频，上传参考图片再生成视频"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "调大运动速度"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "切换随机运镜"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 32,
+      "qid": "406483896",
+      "type": "单选题",
+      "score": "",
+      "stem": "腾讯智影制作数字人播报视频，完成编辑之后，需要点击哪个按钮生成完整视频( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "保存草稿"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "合成视频"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "我的资源"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "导出"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 33,
+      "qid": "406483906",
+      "type": "单选题",
+      "score": "",
+      "stem": "波形拼接语音合成法的核心原理是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "通过数学模型对声音特征参数建模后合成音频"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "从语音数据库中查找基本单位进行拼接合成"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "通过编码器-注意力机制-解码器直接生成频谱"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "通过深度学习神经网络直接生成声音波形"
+        }
+      ],
+      "answer": "B",
+      "analysis": "波形拼接法是在已有的语音数据库中查找基本单位，拼接合成语音。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 34,
+      "qid": "406483907",
+      "type": "单选题",
+      "score": "",
+      "stem": "端到端语音合成技术的声学模型结构为( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "编码器-解码器"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "编码器-注意力机制-解码器"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "输入层-隐藏层-输出层"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "文本分析-声学参数预测-声码器"
+        }
+      ],
+      "answer": "B",
+      "analysis": "端到端语音合成采用编码器-注意力机制-解码器(Encoder-Attention-Decoder)的声学模型。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 35,
+      "qid": "406483908",
+      "type": "单选题",
+      "score": "",
+      "stem": "参数语音合成技术的主要缺点是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "需要录制大量语音数据"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "存在音质损失，机械感强，有杂音"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "黑盒模型，不能人为调优"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "字词衔接生硬"
+        }
+      ],
+      "answer": "B",
+      "analysis": "参数语音合成技术的缺点是“存在音质损失，机械感强，有杂音”。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 36,
+      "qid": "406483909",
+      "type": "单选题",
+      "score": "",
+      "stem": "采样率是指( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "单位时间内音频文件的数据传输量"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "单位时间内对连续模拟声音信号的采样次数"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "每个声音样本的量化精度"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "独立音频信号的通路数量"
+        }
+      ],
+      "answer": "B",
+      "analysis": "采样率指单位时间内对连续模拟声音信号的采样次数，单位为Hz。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 37,
+      "qid": "406483910",
+      "type": "单选题",
+      "score": "",
+      "stem": "采样率数值越高，带来的效果是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "音频文件体积越小"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "每秒采集的声音样本越密集，还原的声音越真实自然"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "声道数越多"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "比特率越低"
+        }
+      ],
+      "answer": "B",
+      "analysis": "采样率数值越高，每秒采集的声音样本越密集，还原的声音越真实自然。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 38,
+      "qid": "406483911",
+      "type": "单选题",
+      "score": "",
+      "stem": "声道数决定的是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "音频的清晰度"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "声音的空间分布感"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "音频的比特率"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "音频的采样频率"
+        }
+      ],
+      "answer": "B",
+      "analysis": "声道数是独立音频信号的通路数量，决定声音的空间分布感(单声道、立体声、环绕声等)。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 39,
+      "qid": "406483912",
+      "type": "单选题",
+      "score": "",
+      "stem": "比特率是衡量音频整体质量的重要指标，在相同音频格式下，比特率越高( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "音频文件体积越小"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "音质损耗越大"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "保留的原始数据越完整、音质损耗越小"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "声道数越少"
+        }
+      ],
+      "answer": "C",
+      "analysis": "比特率越高，音频保留的原始数据越完整、音质损耗越小，但文件体积更大。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 40,
+      "qid": "406483913",
+      "type": "单选题",
+      "score": "",
+      "stem": "参数语音合成技术的主要优点是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "音质接近真人"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "原始录音数据量小，字间协同过渡平滑自然"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "可人为调优合成结果"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "无需建模直接合成"
+        }
+      ],
+      "answer": "B",
+      "analysis": "参数语音合成的优点是“原始录音数据量小;字间协同过渡平滑，自然”。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 41,
+      "qid": "406483914",
+      "type": "单选题",
+      "score": "",
+      "stem": "以下关于音频格式的说法正确的是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "不同音频格式对音质和存储效率没有影响"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "MP3、WAV、FLAC等格式在压缩率、音质和兼容性方面有所不同"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "WAV格式一定比MP3音质差"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "所有音频格式都采用有损压缩"
+        }
+      ],
+      "answer": "B",
+      "analysis": "不同的音频格式(如MP3、WAV、FLAC等)在压缩率、音质和兼容性方面有所不同。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 42,
+      "qid": "406483915",
+      "type": "单选题",
+      "score": "",
+      "stem": "端到端语音合成技术的“黑盒”特点是指( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "需要大量语言学知识才能操作"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "合成的音频不能人为进行细节调优"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "只能合成一种音色"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "必须手动标注音素"
+        }
+      ],
+      "answer": "B",
+      "analysis": "端到端语音合成的缺点是“黑盒模型，合成的音频不能人为调优”。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 43,
+      "qid": "406483916",
+      "type": "单选题",
+      "score": "",
+      "stem": "配音中“语速”的控制原则是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "越快越能吸引观众"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "越慢越清晰"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "应根据画面节奏和内容复杂性调整，过快或过慢都不适宜"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "始终保持恒定速度"
+        }
+      ],
+      "answer": "C",
+      "analysis": "语速应根据画面的节奏和内容的复杂性进行调整，过快容易让观众跟不上，过慢则冗长乏味。【项目6.pptx】"
+    },
+    {
+      "id": 44,
+      "qid": "406483943",
+      "type": "单选题",
+      "score": "",
+      "stem": "传统PPT制作的“三重枷锁”不包含以下哪一项( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "构思枯竭"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "效率低下"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "审美门槛"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "模板匮乏"
+        }
+      ],
+      "answer": "D",
+      "analysis": ""
+    },
+    {
+      "id": 45,
+      "qid": "406483944",
+      "type": "单选题",
+      "score": "",
+      "stem": "豆包生成PPT的标准工作流程是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "迭代优化→精准指令→导出排版"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "精准指令→迭代优化→导出排版"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "导出排版→精准指令→迭代优化"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "精准指令→导出排版→迭代优化"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 46,
+      "qid": "406483945",
+      "type": "单选题",
+      "score": "",
+      "stem": "Kimi工具的核心优势是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "PPT一键美化"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "百万级超长上下文，支持解析Word/PDF大文档"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "专门生成Excel图表"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "文档格式批量转换"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 47,
+      "qid": "406483946",
+      "type": "单选题",
+      "score": "",
+      "stem": "iSlide工具的产品定位是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "通用对话大模型"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "PPT垂直领域AI排版美化工具"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "Excel数据清洗工具"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "WPS文档校对工具"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 48,
+      "qid": "406483947",
+      "type": "单选题",
+      "score": "",
+      "stem": "数据处理七大核心环节的起始环节是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "数据清洗"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "数据收集"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "数据转换"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "数据分析"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 49,
+      "qid": "406483948",
+      "type": "单选题",
+      "score": "",
+      "stem": "在数据处理环节中，识别修正错误、重复、缺失数据，保障数据质量的是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "数据存储"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "数据清洗"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "数据可视化"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "数据输出"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 50,
+      "qid": "406483949",
+      "type": "单选题",
+      "score": "",
+      "stem": "Excel中AVERAGE(B2:D2)函数的功能是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "对B2:D2求和"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "计算B2:D2单元格区域平均值"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "统计非空单元格数量"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "条件匹配查找"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 51,
+      "qid": "406483950",
+      "type": "单选题",
+      "score": "",
+      "stem": "Excel选中单元格区域，实现批量填充公式的快捷键是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "Ctrl+Enter"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "Ctrl+S"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "Ctrl+C"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "Ctrl+Z"
+        }
+      ],
+      "answer": "A",
+      "analysis": ""
+    },
+    {
+      "id": 52,
+      "qid": "406483951",
+      "type": "单选题",
+      "score": "",
+      "stem": "Excel中用来实现条件匹配查找，经常使用的函数组合是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "SUM+IF"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "INDEX+MATCH"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "MAX+MIN"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "RIGHT+LEN"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 53,
+      "qid": "406483952",
+      "type": "单选题",
+      "score": "",
+      "stem": "下面选项中，不属于数据处理分类的是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "数据清洗"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "数据整合"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "数据建模"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "数据备份"
+        }
+      ],
+      "answer": "D",
+      "analysis": ""
+    },
+    {
+      "id": 54,
+      "qid": "406483953",
+      "type": "单选题",
+      "score": "",
+      "stem": "DATEDIF函数中参数“Y”代表的含义是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "相差天数"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "相差整年数"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "相差月份"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "相差小时"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 55,
+      "qid": "406483954",
+      "type": "单选题",
+      "score": "",
+      "stem": "下列工具中，不属于AI辅助Excel数据处理工具的是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "Formulabot"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "酷表EXCEL"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "iSlide"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "WPS AI"
+        }
+      ],
+      "answer": "C",
+      "analysis": ""
+    },
+    {
+      "id": 56,
+      "qid": "406483955",
+      "type": "单选题",
+      "score": "",
+      "stem": "AIGC在制造业典型应用场景为( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "个性化学习"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "预测性维护、智能质检"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "药物研发"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "信用评分建模"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 57,
+      "qid": "406483956",
+      "type": "单选题",
+      "score": "",
+      "stem": "Kimi处理表格的三步操作流程正确的是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "登录平台→输入精准提示词→复制表格粘贴至Excel"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "输入提示词→登录平台→复制粘贴"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "复制粘贴→登录平台→输入提示词"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "登录平台→复制粘贴→输入提示词"
+        }
+      ],
+      "answer": "A",
+      "analysis": ""
+    },
+    {
+      "id": 58,
+      "qid": "406483957",
+      "type": "单选题",
+      "score": "",
+      "stem": "在AIGC文档办公场景，以下哪项不属于WPS AI可以完成的任务( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "文档内容总结改写"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "长文档要点提取"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "生成PPT大纲"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "直接修改计算机操作系统内核"
+        }
+      ],
+      "answer": "D",
+      "analysis": ""
+    },
+    {
+      "id": 59,
+      "qid": "406483975",
+      "type": "单选题",
+      "score": "",
+      "stem": "下列哪一项不属于AIGC 在智能编程当中的应用（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "代码自动生成与优化"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "错误检测与调试"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "自动组装电脑硬件"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "自动生成测试用例"
+        }
+      ],
+      "answer": "C",
+      "analysis": ""
+    },
+    {
+      "id": 60,
+      "qid": "406483979",
+      "type": "单选题",
+      "score": "",
+      "stem": "使用 AIGC 工具分析已有代码的主要目的是（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "删除全部代码"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "理解代码功能与逻辑"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "直接销毁源文件"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "加密代码"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 61,
+      "qid": "406483980",
+      "type": "单选题",
+      "score": "",
+      "stem": "为代码添加注释是为了（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "增强运行的稳定性"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "增加代码行数"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "提高代码运行速度"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "提高代码的可读性和可维护性"
+        }
+      ],
+      "answer": "D",
+      "analysis": ""
+    },
+    {
+      "id": 62,
+      "qid": "406483981",
+      "type": "单选题",
+      "score": "",
+      "stem": "打地鼠游戏案例中，首先需要使用豆包哪个功能生成地鼠卡通图片（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "AI 编程"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "AI 图像生成"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "AI 搜索"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "AI 云盘"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 63,
+      "qid": "406483982",
+      "type": "单选题",
+      "score": "",
+      "stem": "3D 模型当中，构成 3D 模型最小单位是（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "顶点"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "边"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "面"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "网格"
+        }
+      ],
+      "answer": "A",
+      "analysis": ""
+    },
+    {
+      "id": 64,
+      "qid": "406483983",
+      "type": "单选题",
+      "score": "",
+      "stem": "将三维模型表面展开为二维贴图平面的技术概念是（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "拓扑"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "UV 坐标"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "材质"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "纹理"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 65,
+      "qid": "406483984",
+      "type": "单选题",
+      "score": "",
+      "stem": "下列文件格式，被称为 3D 领域的 JPEG，适合网页、AR/VR 场景的是（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "STL"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "OBJ"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "GLB"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "FBX"
+        }
+      ],
+      "answer": "C",
+      "analysis": ""
+    },
+    {
+      "id": 66,
+      "qid": "406483985",
+      "type": "单选题",
+      "score": "",
+      "stem": "STL 格式的主要用途是（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "影视动画角色制作"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "3D 打印快速原型制造"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "网页 3D 交互展示"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "存储骨骼动画"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 67,
+      "qid": "406483986",
+      "type": "单选题",
+      "score": "",
+      "stem": "Tripo‑AI 平台不能够完成下面哪项操作（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "文字生成 3D 模型"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "图片转 3D 模型"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "直接生成可执行 exe 程序"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "导出 GLB 格式模型"
+        }
+      ],
+      "answer": "C",
+      "analysis": ""
+    },
+    {
+      "id": 68,
+      "qid": "406483987",
+      "type": "单选题",
+      "score": "",
+      "stem": "Three.js 在线编辑器不能够完成的操作是（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "导入 GLB 模型"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "导出 3D 模型文件"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "修改模型颜色材质"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "直接打印纸质海报"
+        }
+      ],
+      "answer": "D",
+      "analysis": ""
+    },
+    {
+      "id": 69,
+      "qid": "406484002",
+      "type": "单选题",
+      "score": "",
+      "stem": "人工智能伦理是开展人工智能研究、设计、开发、服务和使用等（）活动需要遵循的价值理念和行为规范。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "开发环节"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "全生命周期"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "应用环节"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "推广环节"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 70,
+      "qid": "406484003",
+      "type": "单选题",
+      "score": "",
+      "stem": "根据《新一代人工智能伦理规范》，人工智能伦理要解决的三个关键问题不包括（）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "明确AI发展的价值导向"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "防范AI应用中的伦理风险"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "建立AI伦理的实践路径"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "提高AI算法的运行速度"
+        }
+      ],
+      "answer": "D",
+      "analysis": ""
+    },
+    {
+      "id": 71,
+      "qid": "406484004",
+      "type": "单选题",
+      "score": "",
+      "stem": "AI系统在决策过程中，根据不公平或扭曲的数据对特定群体产生不公平对待的行为，属于（）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "数据泄露"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "算法偏见"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "算法不透明"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "技术滥用"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 72,
+      "qid": "406484005",
+      "type": "单选题",
+      "score": "",
+      "stem": "算法偏见的特点不包括（）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "隐蔽性"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "系统性"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "公开性"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "难追责性"
+        }
+      ],
+      "answer": "C",
+      "analysis": ""
+    },
+    {
+      "id": 73,
+      "qid": "406484006",
+      "type": "单选题",
+      "score": "",
+      "stem": "深度学习模型决策过程涉及海量神经元的复杂连接与多层计算，人类难以直观理解其内部逻辑，这种“不可解释风险”属于（）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "数据隐私与安全"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "人的主体性异化"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "算法不透明"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "知识产权风险"
+        }
+      ],
+      "answer": "C",
+      "analysis": ""
+    },
+    {
+      "id": 74,
+      "qid": "406484007",
+      "type": "单选题",
+      "score": "",
+      "stem": "人的主体性是指人作为活动主体在与客体相互作用过程中表现出来的（）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "自主性、能动性和创造性"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "依赖性、被动性和盲目性"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "机械性、重复性和单一性"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "趋利性、排他性和攻击性"
+        }
+      ],
+      "answer": "A",
+      "analysis": ""
+    },
+    {
+      "id": 75,
+      "qid": "406484008",
+      "type": "单选题",
+      "score": "",
+      "stem": "据MIT实验证明，长期依赖AI进行深度思考，大脑神经活跃度大幅降低，会产生不可逆的（）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "认知债务"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "数据债务"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "技术债务"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "伦理债务"
+        }
+      ],
+      "answer": "A",
+      "analysis": ""
+    },
+    {
+      "id": 76,
+      "qid": "406484009",
+      "type": "单选题",
+      "score": "",
+      "stem": "伦理治理核心原则中，要求“全流程数据留痕、事故场景责任还原”的是（）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "尊重人类"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "可解释性"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "可追溯性"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "负责任"
+        }
+      ],
+      "answer": "C",
+      "analysis": ""
+    },
+    {
+      "id": 77,
+      "qid": "406484010",
+      "type": "单选题",
+      "score": "",
+      "stem": "伦理治理核心原则中，旨在破解“黑箱困境”，让AI从“不可知”走向“可知”的是（）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "公正性"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "可解释性"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "可追溯性"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "负责任"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 78,
+      "qid": "406484011",
+      "type": "单选题",
+      "score": "",
+      "stem": "应对伦理问题的策略中，利用可视化工具拆解算法决策路径、研发可解释AI技术，属于（）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "制定和执行相关法规与政策"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "提高AI技术的透明度和可解释性"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "建立AI伦理审查机制"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "加强国际合作和交流"
+        }
+      ],
+      "answer": "B",
+      "analysis": ""
+    },
+    {
+      "id": 79,
+      "qid": "406483842",
+      "type": "多选题",
+      "score": "",
+      "stem": "下面属于 AIGC 特点的有( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "自动化生成"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "高效率"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "跨模态能力"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "数据驱动"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 80,
+      "qid": "406483843",
+      "type": "多选题",
+      "score": "",
+      "stem": "人工智能第一次衰退的原因是:",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "逻辑理论下的人工智能系统难以工程化"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "人工智能产品多数是纸上谈兵"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "专家系统难以升级换代"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "耗费了巨额资金和漫长等待后，依然没有出现成为实物、带来实际价值的人工智能系统"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 81,
+      "qid": "406483844",
+      "type": "多选题",
+      "score": "",
+      "stem": "人工智能第二次衰退的原因是:",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "深度学习技术的出现"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "专家系统在大获成功之后，也渐渐暴露出实用性局限的问题"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "专家系统维护费用居高不下，而且升级困难"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "专家系统使用上相当不友善，当输入异常时会出现莫名其妙的错误"
+        }
+      ],
+      "answer": [
+        "B",
+        "C",
+        "D"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 82,
+      "qid": "406483845",
+      "type": "多选题",
+      "score": "",
+      "stem": "关于 AI 幻觉说法正确的有( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "会输出虚构的信息"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "输出全部内容完全不可信"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "使用时需要人工审核校验"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "只有中文才会产生幻觉"
+        }
+      ],
+      "answer": [
+        "A",
+        "C"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 83,
+      "qid": "406483846",
+      "type": "多选题",
+      "score": "",
+      "stem": "以下哪些是提示词工程中常用的框架?( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "ICIO"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "CRISPE"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "BROKE"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "SWOT"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 84,
+      "qid": "406483847",
+      "type": "多选题",
+      "score": "",
+      "stem": "以下哪些属于提示词设计的核心原则?( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "确定生成目标"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "模糊表达以激发创意"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "提供上下文"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "使用复杂语法"
+        }
+      ],
+      "answer": [
+        "A",
+        "C"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 85,
+      "qid": "406483874",
+      "type": "多选题",
+      "score": "",
+      "stem": "下列属于AI绘画特点的有？",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "无需手工绘制，即可快速产出多种风格的绘画作品"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "能在短时间内生成高质量、逼真的视觉效果"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "支持多轮迭代优化，满足创作者多样化需求"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "只能生成单一固定风格的图像"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "analysis": "AI绘画支持多轮迭代优化，可满足创作者多样化需求；选项D“只能生成单一固定风格”错误，AI绘画可快速产出多种风格的作品。",
+      "knowledgePoints": [
+        "AI绘画的定义与特点"
+      ]
+    },
+    {
+      "id": 86,
+      "qid": "406483875",
+      "type": "多选题",
+      "score": "",
+      "stem": "下列哪些属于主流AIGC图片生成平台？",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "LiblibAI"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "豆包"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "文心一言"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "通义万相"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "analysis": "LiblibAI、豆包、文心一言、通义万相均为主流AIGC图片生成平台，此外还有即梦AI等。",
+      "knowledgePoints": [
+        "主流AIGC图片生成平台"
+      ]
+    },
+    {
+      "id": 87,
+      "qid": "406483876",
+      "type": "多选题",
+      "score": "",
+      "stem": "关于即梦AI的图片生成与编辑功能，下列说法正确的有？",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "支持通过自然语言描述生成高质量图像"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "支持上传参考图片生成图像"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "可进行风格转换、局部重绘、背景替换等创意改造"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "只能用于文字对话，不支持图像创作"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "analysis": "即梦AI支持通过自然语言描述或上传参考图生成图像，可实现超现实场景、人物肖像等创作，并支持风格转换、局部重绘、背景替换及智能画布拼接；选项D错误。",
+      "knowledgePoints": [
+        "主流AIGC图片生成平台"
+      ]
+    },
+    {
+      "id": 88,
+      "qid": "406483877",
+      "type": "多选题",
+      "score": "",
+      "stem": "关于AI绘画平台的选择，下列说法正确的有？",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "新手可从豆包、文心一言等平台入门"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "进阶可尝试即梦AI、通义万相"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "技术深入研究可选择LiblibAI"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "所有场景都应固定选择同一个平台"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "analysis": "没有最好的平台，只有最适合当前需求的平台；应从需求匹配度、成本与预算、技术能力、生态与易用四个维度综合评估，故D“所有场景固定选择同一平台”错误。",
+      "knowledgePoints": [
+        "主流AIGC图片生成平台"
+      ]
+    },
+    {
+      "id": 89,
+      "qid": "406483897",
+      "type": "多选题",
+      "score": "",
+      "stem": "下列属于AI视频生成工具的有( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "即梦AI"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "可灵AI"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "PixVerse"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "剪映"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 90,
+      "qid": "406483898",
+      "type": "多选题",
+      "score": "",
+      "stem": "下面属于影视镜头景别的有( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "远景"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "全景"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "中景"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "逆光"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 91,
+      "qid": "406483917",
+      "type": "多选题",
+      "score": "",
+      "stem": "以下属于语音合成技术的有( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "波形拼接语音合成"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "参数语音合成"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "端到端语音合成"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "视频编码合成"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "analysis": "语音合成技术包括波形拼接、参数和端到端三种。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 92,
+      "qid": "406483918",
+      "type": "多选题",
+      "score": "",
+      "stem": "波形拼接语音合成法的缺点包括( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "需要录制大量的语音才能保证覆盖率"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "字词的衔接过渡较为生硬，不够自然"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "存在音质损失"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "机械感强，有杂音"
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "analysis": "波形拼接的缺点是“需要录制大量的语音;字词衔接生硬”。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 93,
+      "qid": "406483919",
+      "type": "多选题",
+      "score": "",
+      "stem": "端到端语音合成技术的特点包括( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "对语言学知识要求降低"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "合成的音频自然，趋近人声"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "所需录音量大"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "黑盒模型，合成的音频不能人为调优"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "analysis": "端到端语音合成的优点是“对语言学要求低、自然度高、录音量小”，缺点是“黑盒不可调优”。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 94,
+      "qid": "406483920",
+      "type": "多选题",
+      "score": "",
+      "stem": "数字音频的核心参数包括( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "采样率"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "采样位宽"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "声道数"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "比特率"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "analysis": "数字音频的核心参数包括采样率、采样位宽、声道数和比特率，以及音频格式。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 95,
+      "qid": "406483921",
+      "type": "多选题",
+      "score": "",
+      "stem": "常见的音频格式包括( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "MP3"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "WAV"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "FLAC"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "JPEG"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "analysis": "不同的音频格式如MP3、WAV、FLAC等。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 96,
+      "qid": "406483922",
+      "type": "多选题",
+      "score": "",
+      "stem": "音乐创作的关键要素包括( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "旋律"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "节奏"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "音色"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "结构和歌词"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "analysis": "音乐创作的关键要素包括旋律、节奏、音色、结构、歌词。【项目6.pptx】"
+    },
+    {
+      "id": 97,
+      "qid": "406483923",
+      "type": "多选题",
+      "score": "",
+      "stem": "以下关于采样率的说法正确的有( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "采样率单位为Hz"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "采样率数值越高，声音越真实自然"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "采样率决定音频的动态范围"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "采样率越高，音频文件体积越大"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "analysis": "采样率单位为Hz，数值越高越真实，数据量越大;动态范围由采样位宽决定。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 98,
+      "qid": "406483924",
+      "type": "多选题",
+      "score": "",
+      "stem": "以下关于比特率的说法正确的有( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "比特率单位通常为kbps"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "比特率越高，音质越好"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "比特率越高，文件体积越小"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "比特率是衡量音频整体质量的重要指标"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "analysis": "比特率单位kbps，是衡量整体质量的重要指标，越高音质越好但文件越大。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 99,
+      "qid": "406483925",
+      "type": "多选题",
+      "score": "",
+      "stem": "以下关于声道数的说法正确的有( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "声道数决定声音的空间分布感"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "单声道是单一音源"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "双声道(立体声)能模拟左右声源"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "声道数越多，音频清晰度越高"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "analysis": "声道数决定空间分布感，单声道单一音源，立体声模拟左右声源;清晰度由采样率和位宽决定。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 100,
+      "qid": "406483926",
+      "type": "多选题",
+      "score": "",
+      "stem": "关于端到端语音合成与参数合成的对比，正确的有( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "端到端合成更趋近人声"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "参数合成可人为调优程度更高(相对)"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "端到端对语言学知识要求更低"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "两者所需录音量都较小"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "analysis": "端到端自然度高、语言学要求低;参数合成虽不可直接调优但比黑盒稍好，录音量两者都小。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 101,
+      "qid": "406483927",
+      "type": "多选题",
+      "score": "",
+      "stem": "以下关于音频参数的表述正确的有( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "采样率影响频率范围还原"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "采样位宽影响音量层次细腻度"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "声道数影响空间感"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "比特率影响压缩质量"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "analysis": "采样率影响高频细节，位宽影响动态，声道数影响空间，比特率影响质量。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 102,
+      "qid": "406483928",
+      "type": "多选题",
+      "score": "",
+      "stem": "以下关于配音中“情感”的表述正确的有( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "通过语调、重音、停顿等方式传递情感"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "情感传递能增强配音感染力"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "所有配音都只需保持中性情感"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "情感应与内容主题相匹配"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "analysis": "情感通过语调、重音、停顿等方式传递，应与主题匹配。【项目6.pptx】"
+    },
+    {
+      "id": 103,
+      "qid": "406483958",
+      "type": "多选题",
+      "score": "",
+      "stem": "传统PPT创作面临的现实困境有( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "内容构思枯竭，不知道如何搭建大纲"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "大量时间消耗在格式、排版调整上"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "普通使用者缺少设计审美能力"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "一键自动生成完整PPT成品"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 104,
+      "qid": "406483959",
+      "type": "多选题",
+      "score": "",
+      "stem": "下面属于排版美化类AI工具的是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "iSlide"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "Designs.ai"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "豆包"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "Kimi"
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 105,
+      "qid": "406483960",
+      "type": "多选题",
+      "score": "",
+      "stem": "使用大模型生成PPT，编写提示词可以设置哪些要求( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "明确PPT主题"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "确定汇报受众对象"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "限定PPT总页数"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "规定整体风格与色调"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 106,
+      "qid": "406483961",
+      "type": "多选题",
+      "score": "",
+      "stem": "属于数据处理七大核心环节的有( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "数据收集"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "数据清洗"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "数据分析"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "数据可视化"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 107,
+      "qid": "406483962",
+      "type": "多选题",
+      "score": "",
+      "stem": "AIGC赋能Excel数据处理，可以实现哪些实操任务( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "自然语言生成Excel函数公式"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "批量拆分、提取单元格文本内容"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "辅助完成多级条件数据排序"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "自动生成结构化数据分析报告"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 108,
+      "qid": "406483963",
+      "type": "多选题",
+      "score": "",
+      "stem": "属于AIGC辅助Excel数据处理工具的有( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "Formulabot"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "ExcelLabs"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "WPS AI"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "Askeexcel"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 109,
+      "qid": "406483964",
+      "type": "多选题",
+      "score": "",
+      "stem": "AIGC在各垂直行业应用场景描述正确的是( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "医疗健康:疾病预测、药物研发"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "金融服务:智能风控、信用评分建模"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "零售业:需求预测，个性化营销"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "教育行业:个性化学习、智能测评"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 110,
+      "qid": "406483965",
+      "type": "多选题",
+      "score": "",
+      "stem": "Kimi工具可以实现的操作包含( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "全新构建模拟数据表"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "普通文字转换成结构化表格"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "上传PDF/Word文档提取表格信息"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "PPT页面模板美化"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 111,
+      "qid": "406483966",
+      "type": "多选题",
+      "score": "",
+      "stem": "AIGC高效办公中素养目标要求包含( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "恪守数据伦理，遵守法律法规"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "拒绝生成虚假伪造的数据内容"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "树立数据安全、隐私保护意识"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "AI输出结果直接使用，无需人工校验"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 112,
+      "qid": "406483967",
+      "type": "多选题",
+      "score": "",
+      "stem": "AIGC助力文档办公，WPS AI能够完成的工作有( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "长文档总结概括、要点提炼"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "改写润色工作报告、演讲稿"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "生成PPT的大纲与页面文案"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "文档翻译、纠错、扩写缩写"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 113,
+      "qid": "406483976",
+      "type": "多选题",
+      "score": "",
+      "stem": "AIGC 辅助程序设计，可以完成以下哪些工作（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "查询编程语言语法"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "分析已有代码功能"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "自动为代码添加注释"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "生成业务代码"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 114,
+      "qid": "406483988",
+      "type": "多选题",
+      "score": "",
+      "stem": "关于 3D 模型中材质与纹理说法正确的有（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "材质描述物体表面反光、粗糙度等物理属性"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "纹理是覆盖3D模型表面的二维图像"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "纹理依靠 UV 坐标映射到三维模型表面"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "材质就是纹理，二者完全等同"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 115,
+      "qid": "406483989",
+      "type": "多选题",
+      "score": "",
+      "stem": "属于主流 3D 模型文件格式的有（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "STL"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "FBX"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "GLB"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "OBJ"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 116,
+      "qid": "406484012",
+      "type": "多选题",
+      "score": "",
+      "stem": "下列属于人工智能伦理主要风险的有（）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "数据隐私与安全"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "算法偏见与歧视"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "算法不透明"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "人的主体性异化"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 117,
+      "qid": "406484013",
+      "type": "多选题",
+      "score": "",
+      "stem": "算法偏见与歧视的产生原因包括（）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "训练数据的“历史偏见”"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "算法设计的“隐性倾斜”"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "应用场景的公平危机"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "硬件设备的性能不足"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 118,
+      "qid": "406484014",
+      "type": "多选题",
+      "score": "",
+      "stem": "人工智能伦理治理的五大核心原则包括（）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "A",
+          "text": "尊重人类"
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "text": "公正性"
+        },
+        {
+          "label": "C",
+          "value": "C",
+          "text": "可解释性"
+        },
+        {
+          "label": "D",
+          "value": "D",
+          "text": "可追溯性"
+        },
+        {
+          "label": "E",
+          "value": "E",
+          "text": "负责任"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "analysis": ""
+    },
+    {
+      "id": 119,
+      "qid": "406483853",
+      "type": "判断题",
+      "score": "",
+      "stem": "“重述技巧”是指通过重复相同提示词来获得不同输出。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": ""
+    },
+    {
+      "id": 120,
+      "qid": "406483854",
+      "type": "判断题",
+      "score": "",
+      "stem": "提示词越模糊，AI生成的内容越精准。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": ""
+    },
+    {
+      "id": 121,
+      "qid": "406483855",
+      "type": "判断题",
+      "score": "",
+      "stem": "使用六何分析法写提示词，必须完整写出全部六个要素，少一个就完全失效。（ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": ""
+    },
+    {
+      "id": 122,
+      "qid": "406483856",
+      "type": "判断题",
+      "score": "",
+      "stem": "扣子平台可以不用编写复杂代码，就能够快速搭建 AI 问答智能体 Bot。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 123,
+      "qid": "406483857",
+      "type": "判断题",
+      "score": "",
+      "stem": "AIGC 跨模态能力指可以在文本、图片、音频、视频不同媒介之间生成内容。（ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 124,
+      "qid": "406483858",
+      "type": "判断题",
+      "score": "",
+      "stem": "AI 大模型产生幻觉时，输出内容可能包含虚构信息，需要人工审核。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 125,
+      "qid": "406483859",
+      "type": "判断题",
+      "score": "",
+      "stem": "ICIO框架中的第一个“I”代表“Instruction”。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 126,
+      "qid": "406483860",
+      "type": "判断题",
+      "score": "",
+      "stem": "提示词工程师不需要理解用户的心理需求，以保证输出结果的公正性。（ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": ""
+    },
+    {
+      "id": 127,
+      "qid": "406483861",
+      "type": "判断题",
+      "score": "",
+      "stem": "提示词只可以使用文字，不存在图像类提示词。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": ""
+    },
+    {
+      "id": 128,
+      "qid": "406483878",
+      "type": "判断题",
+      "score": "",
+      "stem": "AI绘画是指利用人工智能模型根据输入（如文本描述、草图）自动生成图像的技术。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": "正确，这正是AI绘画的定义。",
+      "knowledgePoints": [
+        "AI绘画的定义与特点"
+      ]
+    },
+    {
+      "id": 129,
+      "qid": "406483879",
+      "type": "判断题",
+      "score": "",
+      "stem": "AI绘画无需手工绘制，可以快速产出多种风格的绘画作品。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": "正确，AI绘画无需手工绘制即可快速产出多种风格、多维度的绘画作品。",
+      "knowledgePoints": [
+        "AI绘画的定义与特点"
+      ]
+    },
+    {
+      "id": 130,
+      "qid": "406483880",
+      "type": "判断题",
+      "score": "",
+      "stem": "“文生图”是指根据已有图像生成新的图像。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": "错误。文生图是指根据文本描述自动生成图像；根据已有图像生成新图像是“图生图”。",
+      "knowledgePoints": [
+        "AI绘画的技术原理"
+      ]
+    },
+    {
+      "id": 131,
+      "qid": "406483881",
+      "type": "判断题",
+      "score": "",
+      "stem": "图像生成技术只涉及图像的简单复制，不需要考虑创意和优化过程。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": "错误。图像生成涉及深度学习、计算机视觉、艺术创作等知识，包含风格迁移、局部重绘、细节优化等创意表达过程。",
+      "knowledgePoints": [
+        "AI绘画的技术原理"
+      ]
+    },
+    {
+      "id": 132,
+      "qid": "406483882",
+      "type": "判断题",
+      "score": "",
+      "stem": "提示词越具体、越有画面感，AI生成的结果越符合预期。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": "正确，这是Prompt撰写的核心技巧。",
+      "knowledgePoints": [
+        "提示词编写技巧"
+      ]
+    },
+    {
+      "id": 133,
+      "qid": "406483883",
+      "type": "判断题",
+      "score": "",
+      "stem": "LiblibAI需要本地部署才能使用。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": "错误。LiblibAI提供在线生图服务，无需本地部署即可快速上手使用。",
+      "knowledgePoints": [
+        "主流AIGC图片生成平台"
+      ]
+    },
+    {
+      "id": 134,
+      "qid": "406483884",
+      "type": "判断题",
+      "score": "",
+      "stem": "豆包是字节跳动推出的AI助手，中文理解优秀。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": "正确，豆包基于豆包大模型，中文理解优秀，支持多种创作模式。",
+      "knowledgePoints": [
+        "主流AIGC图片生成平台"
+      ]
+    },
+    {
+      "id": 135,
+      "qid": "406483885",
+      "type": "判断题",
+      "score": "",
+      "stem": "即梦AI不支持图片编辑功能。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": "错误。即梦AI支持风格转换、局部重绘、背景替换等图片编辑功能，并可通过智能画布实现多元素无缝拼接。",
+      "knowledgePoints": [
+        "主流AIGC图片生成平台"
+      ]
+    },
+    {
+      "id": 136,
+      "qid": "406483886",
+      "type": "判断题",
+      "score": "",
+      "stem": "通义万相针对电商场景进行了深度优化，商品图和模特图生成效果出色。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": "正确，通义万相支持API批量处理，适合电商美工、营销海报等商业应用场景。",
+      "knowledgePoints": [
+        "主流AIGC图片生成平台"
+      ]
+    },
+    {
+      "id": 137,
+      "qid": "406483887",
+      "type": "判断题",
+      "score": "",
+      "stem": "蒙版建立流程的第一步是“发送到图生图重绘”。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": "错误。蒙版建立流程的第一步是“拖入产品图运行分割”，最后一步才是“发送到图生图重绘”。",
+      "knowledgePoints": [
+        "AIGC图像生成实践"
+      ]
+    },
+    {
+      "id": 138,
+      "qid": "406483888",
+      "type": "判断题",
+      "score": "",
+      "stem": "在课堂实践参数设置中，迭代步数建议设置为20-35步。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": "正确，参数设置要点中迭代步数为20-35步，采样方法为DPM++ 2M。",
+      "knowledgePoints": [
+        "AIGC图像生成实践"
+      ]
+    },
+    {
+      "id": 139,
+      "qid": "406483889",
+      "type": "判断题",
+      "score": "",
+      "stem": "水墨国风风格的特点是霓虹灯光、雨夜、高楼。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": "错误。霓虹灯光、雨夜、高楼是赛博朋克风格的特点；水墨国风的特点是留白、写意、东方意境。",
+      "knowledgePoints": [
+        "AI绘画的风格"
+      ]
+    },
+    {
+      "id": 140,
+      "qid": "406483899",
+      "type": "判断题",
+      "score": "",
+      "stem": "AIGC幻觉，指AI生成内容和输入提示、客观现实出现不匹配、矛盾的现象。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 141,
+      "qid": "406483900",
+      "type": "判断题",
+      "score": "",
+      "stem": "PAL视频制式主要用于中国、欧洲地区，帧率为25fps。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 142,
+      "qid": "406483901",
+      "type": "判断题",
+      "score": "",
+      "stem": "使用剪映识别字幕功能，识别后的字幕不需要人工校正，可以直接使用。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": ""
+    },
+    {
+      "id": 143,
+      "qid": "406483902",
+      "type": "判断题",
+      "score": "",
+      "stem": "运镜方式包含推、拉、摇、移、跟、环绕、升降镜头。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 144,
+      "qid": "406483903",
+      "type": "判断题",
+      "score": "",
+      "stem": "数字人播报视频生成后，内容不需要审核，直接发布即可。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": ""
+    },
+    {
+      "id": 145,
+      "qid": "406483929",
+      "type": "判断题",
+      "score": "",
+      "stem": "波形拼接语音合成需要在已有的语音数据库中查找基本单位，拼接合成语音。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": "波形拼接法是在数据库中查找基本单位拼接。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 146,
+      "qid": "406483930",
+      "type": "判断题",
+      "score": "",
+      "stem": "端到端语音合成技术采用编码器-注意力机制-解码器的声学模型，中间为黑盒部分。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": "端到端采用Encoder-Attention-Decoder，中间为黑盒。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 147,
+      "qid": "406483931",
+      "type": "判断题",
+      "score": "",
+      "stem": "采样率数值越高，每秒采集的声音样本越密集，还原的声音越真实自然。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": "采样率越高，样本越密集，还原越真实。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 148,
+      "qid": "406483932",
+      "type": "判断题",
+      "score": "",
+      "stem": "声道数决定声音的空间分布感，单声道是单一音源，双声道(立体声)能模拟左右声源。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": "声道数决定空间分布感。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 149,
+      "qid": "406483933",
+      "type": "判断题",
+      "score": "",
+      "stem": "旋律是音乐中最具表现力和吸引力的部分，被称为音乐的灵魂。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": "旋律是音乐的灵魂。【项目6.pptx】"
+    },
+    {
+      "id": 150,
+      "qid": "406483934",
+      "type": "判断题",
+      "score": "",
+      "stem": "端到端语音合成技术的缺点是所需录音量大，对语言学知识要求高。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": "端到端录音量小，对语言学要求低。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 151,
+      "qid": "406483935",
+      "type": "判断题",
+      "score": "",
+      "stem": "音频格式的选择对音质和存储效率没有影响。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": "不同格式在压缩率、音质和兼容性方面不同，影响音质和存储效率。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 152,
+      "qid": "406483936",
+      "type": "判断题",
+      "score": "",
+      "stem": "比特率是衡量音频整体质量的重要指标，单位通常为kbps。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": "比特率单位kbps，是重要指标。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 153,
+      "qid": "406483937",
+      "type": "判断题",
+      "score": "",
+      "stem": "参数语音合成中的“声码器”用于将声学特征参数转换为声音波形。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": "参数合成由声学模型(声码器)合成音频。【AIGC音视频创作.pptx】"
+    },
+    {
+      "id": 154,
+      "qid": "406483938",
+      "type": "判断题",
+      "score": "",
+      "stem": "音乐创作中，音色通过选择不同乐器和音色处理来表现作品风格。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": "音色是表现声音特点和风格的属性，通过乐器和处理实现。【项目6.pptx】"
+    },
+    {
+      "id": 155,
+      "qid": "406483939",
+      "type": "判断题",
+      "score": "",
+      "stem": "UGC 是专家生成内容，内容质量高、产量少。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": ""
+    },
+    {
+      "id": 156,
+      "qid": "406483968",
+      "type": "判断题",
+      "score": "",
+      "stem": "豆包、Kimi、通义千问属于内容生成类AI，可输出PPT大纲、文案，也可以辅助处理文档与表格需求。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 157,
+      "qid": "406483969",
+      "type": "判断题",
+      "score": "",
+      "stem": "iSlide工具既擅长PPT排版美化，同时也擅长解析大篇幅Word文档和复杂Excel数据运算。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": ""
+    },
+    {
+      "id": 158,
+      "qid": "406483970",
+      "type": "判断题",
+      "score": "",
+      "stem": "数据清洗的工作是识别、剔除重复、缺失、噪声数据，提升原始数据质量。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 159,
+      "qid": "406483971",
+      "type": "判断题",
+      "score": "",
+      "stem": "数据备份属于数据安全范畴，不属于数据处理核心分类。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 160,
+      "qid": "406483972",
+      "type": "判断题",
+      "score": "",
+      "stem": "使用AIGC处理文档、表格时，向AI描述需求，提示词越具体，输出结果越贴合业务需要。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 161,
+      "qid": "406483973",
+      "type": "判断题",
+      "score": "",
+      "stem": "AI生成PPT、Excel数据报告、办公文档之后，内容完全可靠，可以直接交付，不需要人工校验。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": ""
+    },
+    {
+      "id": 162,
+      "qid": "406483974",
+      "type": "判断题",
+      "score": "",
+      "stem": "处理员工薪资、个人身份等敏感办公数据时，要做好隐私保护，遵守数据安全相关规范。( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 163,
+      "qid": "406483977",
+      "type": "判断题",
+      "score": "",
+      "stem": "AIGC 编程助手可以理解自然语言描述，生成对应代码。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 164,
+      "qid": "406483990",
+      "type": "判断题",
+      "score": "",
+      "stem": "AIGC 只能生成代码，不能帮助调试、查找代码错误。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": ""
+    },
+    {
+      "id": 165,
+      "qid": "406483991",
+      "type": "判断题",
+      "score": "",
+      "stem": "给代码添加注释可以提升代码可读性与可维护性。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 166,
+      "qid": "406483992",
+      "type": "判断题",
+      "score": "",
+      "stem": "保存网页代码时，图片文件夹名称可以随意修改，不会影响网页显示效果。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": ""
+    },
+    {
+      "id": 167,
+      "qid": "406483993",
+      "type": "判断题",
+      "score": "",
+      "stem": "边是 3D 模型构成的最小单位。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": ""
+    },
+    {
+      "id": 168,
+      "qid": "406483994",
+      "type": "判断题",
+      "score": "",
+      "stem": "OBJ 格式会把材质信息保存在自身文件内部，不需要外部附属文件。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 169,
+      "qid": "406483995",
+      "type": "判断题",
+      "score": "",
+      "stem": "Tripo‑AI 可以通过上传一张 2D 插画图片，生成对应的 3D 模型。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 170,
+      "qid": "406483996",
+      "type": "判断题",
+      "score": "",
+      "stem": "Three.js 在线编辑器可以导入 GLB 模型，修改材质颜色后再次导出。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 171,
+      "qid": "406483997",
+      "type": "判断题",
+      "score": "",
+      "stem": "GLB 格式把几何体、材质、纹理封装到同一个文件，适合网页 3D 展示。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 172,
+      "qid": "406483998",
+      "type": "判断题",
+      "score": "",
+      "stem": "AI不能够识别出程序代码中常见的错误模式。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": ""
+    },
+    {
+      "id": 173,
+      "qid": "406484015",
+      "type": "判断题",
+      "score": "",
+      "stem": "人工智能伦理旨在促进AI向善、引领技术健康发展。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 174,
+      "qid": "406484016",
+      "type": "判断题",
+      "score": "",
+      "stem": "人工智能伦理仅适用于AI的开发环节，不涉及设计、使用等环节。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": ""
+    },
+    {
+      "id": 175,
+      "qid": "406484017",
+      "type": "判断题",
+      "score": "",
+      "stem": "数据隐私风险贯穿“采集—存储—使用—销毁”全生命周期，且各环节风险相互传导。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 176,
+      "qid": "406484018",
+      "type": "判断题",
+      "score": "",
+      "stem": "算法偏见具有隐蔽性和系统性的特点。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 177,
+      "qid": "406484019",
+      "type": "判断题",
+      "score": "",
+      "stem": "AI依托历史数据学习，数据中留存的传统社会不公会被算法复刻、放大，这种偏见属于数据质量型偏见。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 178,
+      "qid": "406484020",
+      "type": "判断题",
+      "score": "",
+      "stem": "AI本身具备法律责任承担主体资格，能够独立承担事故责任。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "错",
+      "analysis": ""
+    },
+    {
+      "id": 179,
+      "qid": "406484021",
+      "type": "判断题",
+      "score": "",
+      "stem": "AIGC凭借高仿真生成与模型幻觉特性，会大幅降低造谣、舆论操控、网络诈骗的实施门槛。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 180,
+      "qid": "406484022",
+      "type": "判断题",
+      "score": "",
+      "stem": "尊重人类原则要求确保AI的技术逻辑服从人类的价值逻辑，让智能技术真正服务于人。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 181,
+      "qid": "406484023",
+      "type": "判断题",
+      "score": "",
+      "stem": "可追溯性原则要求全流程数据留痕，确保数据真实、不可篡改。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 182,
+      "qid": "406484024",
+      "type": "判断题",
+      "score": "",
+      "stem": "负责任原则要求AI发展从单一追求“技术效益”转向“兼顾社会成本与公共福祉”的综合价值导向。（）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "value": "true",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "value": "false",
+          "text": "错"
+        }
+      ],
+      "answer": "对",
+      "analysis": ""
+    },
+    {
+      "id": 183,
+      "qid": "406483890",
+      "type": "连线题",
+      "score": "",
+      "stem": "将下列AI绘画风格与其对应的风格特征连线。",
+      "images": [],
+      "leftItems": [
+        {
+          "label": "1",
+          "text": "赛博朋克"
+        },
+        {
+          "label": "2",
+          "text": "水墨国风"
+        },
+        {
+          "label": "3",
+          "text": "像素艺术"
+        },
+        {
+          "label": "4",
+          "text": "蒸汽朋克"
+        }
+      ],
+      "rightItems": [
+        {
+          "label": "A",
+          "text": "齿轮、黄铜、机械复古"
+        },
+        {
+          "label": "B",
+          "text": "霓虹灯光、雨夜、高楼"
+        },
+        {
+          "label": "C",
+          "text": "留白、写意、东方意境"
+        },
+        {
+          "label": "D",
+          "text": "8-bit、复古游戏感"
+        }
+      ],
+      "options": [
+        {
+          "label": "A",
+          "text": "齿轮、黄铜、机械复古"
+        },
+        {
+          "label": "B",
+          "text": "霓虹灯光、雨夜、高楼"
+        },
+        {
+          "label": "C",
+          "text": "留白、写意、东方意境"
+        },
+        {
+          "label": "D",
+          "text": "8-bit、复古游戏感"
+        }
+      ],
+      "answer": {
+        "1": "B",
+        "2": "C",
+        "3": "D",
+        "4": "A"
+      },
+      "analysis": "赛博朋克对应霓虹灯光、雨夜、高楼（第二组第2项）；水墨国风对应留白、写意、东方意境（第3项）；像素艺术对应8-bit、复古游戏感（第4项）；蒸汽朋克对应齿轮、黄铜、机械复古（第1项）。",
+      "knowledgePoints": [
+        "AI绘画的风格"
+      ]
+    },
+    {
+      "id": 184,
+      "qid": "406483891",
+      "type": "连线题",
+      "score": "",
+      "stem": "将下列AIGC图片生成平台与其对应的核心特点连线。",
+      "images": [],
+      "leftItems": [
+        {
+          "label": "1",
+          "text": "LiblibAI"
+        },
+        {
+          "label": "2",
+          "text": "豆包"
+        },
+        {
+          "label": "3",
+          "text": "通义万相"
+        },
+        {
+          "label": "4",
+          "text": "即梦AI"
+        }
+      ],
+      "rightItems": [
+        {
+          "label": "A",
+          "text": "针对电商场景深度优化，支持API批量处理"
+        },
+        {
+          "label": "B",
+          "text": "基于Stable Diffusion模型，无需本地部署"
+        },
+        {
+          "label": "C",
+          "text": "支持上传参考图生成图像，智能画布无缝拼接"
+        },
+        {
+          "label": "D",
+          "text": "内置强大图片生成功能，支持智能扩图"
+        }
+      ],
+      "options": [
+        {
+          "label": "A",
+          "text": "针对电商场景深度优化，支持API批量处理"
+        },
+        {
+          "label": "B",
+          "text": "基于Stable Diffusion模型，无需本地部署"
+        },
+        {
+          "label": "C",
+          "text": "支持上传参考图生成图像，智能画布无缝拼接"
+        },
+        {
+          "label": "D",
+          "text": "内置强大图片生成功能，支持智能扩图"
+        }
+      ],
+      "answer": {
+        "1": "B",
+        "2": "D",
+        "3": "A",
+        "4": "C"
+      },
+      "analysis": "LiblibAI对应基于Stable Diffusion、无需本地部署（第二组第2项）；豆包对应内置强大图片生成功能、支持智能扩图（第4项）；通义万相对应电商场景优化、API批量处理（第1项）；即梦AI对应上传参考图生成、智能画布拼接（第3项）。",
+      "knowledgePoints": [
+        "主流AIGC图片生成平台"
+      ]
+    },
+    {
+      "id": 185,
+      "qid": "406483904",
+      "type": "连线题",
+      "score": "",
+      "stem": "工具与对应主要功能",
+      "images": [],
+      "leftItems": [
+        {
+          "label": "1",
+          "text": "即梦AI"
+        },
+        {
+          "label": "2",
+          "text": "剪映"
+        },
+        {
+          "label": "3",
+          "text": "腾讯智影"
+        }
+      ],
+      "rightItems": [
+        {
+          "label": "A",
+          "text": "视频剪辑、字幕、配音后期合成"
+        },
+        {
+          "label": "B",
+          "text": "在线数字人播报视频制作"
+        },
+        {
+          "label": "C",
+          "text": "AI文生视频、图生视频"
+        }
+      ],
+      "options": [
+        {
+          "label": "A",
+          "text": "视频剪辑、字幕、配音后期合成"
+        },
+        {
+          "label": "B",
+          "text": "在线数字人播报视频制作"
+        },
+        {
+          "label": "C",
+          "text": "AI文生视频、图生视频"
+        }
+      ],
+      "answer": {
+        "1": "C",
+        "2": "A",
+        "3": "B"
+      },
+      "analysis": ""
+    },
+    {
+      "id": 186,
+      "qid": "406483905",
+      "type": "连线题",
+      "score": "",
+      "stem": "影视概念与含义",
+      "images": [],
+      "leftItems": [
+        {
+          "label": "1",
+          "text": "景别"
+        },
+        {
+          "label": "2",
+          "text": "运镜方式"
+        },
+        {
+          "label": "3",
+          "text": "构图法"
+        }
+      ],
+      "rightItems": [
+        {
+          "label": "A",
+          "text": "摄像机移动或者变焦拍摄的技巧，如推、拉、摇、移"
+        },
+        {
+          "label": "B",
+          "text": "画面内被拍摄主体呈现的画面大小，如远景、特写"
+        },
+        {
+          "label": "C",
+          "text": "线条光影元素布局，引导观众视线，如三分法构图"
+        }
+      ],
+      "options": [
+        {
+          "label": "A",
+          "text": "摄像机移动或者变焦拍摄的技巧，如推、拉、摇、移"
+        },
+        {
+          "label": "B",
+          "text": "画面内被拍摄主体呈现的画面大小，如远景、特写"
+        },
+        {
+          "label": "C",
+          "text": "线条光影元素布局，引导观众视线，如三分法构图"
+        }
+      ],
+      "answer": {
+        "1": "B",
+        "2": "A",
+        "3": "C"
+      },
+      "analysis": ""
+    },
+    {
+      "id": 187,
+      "qid": "406483940",
+      "type": "连线题",
+      "score": "",
+      "stem": "将下述的提示词技巧，与其对应的作用正确连接。",
+      "images": [],
+      "leftItems": [
+        {
+          "label": "1",
+          "text": "投喂示例"
+        },
+        {
+          "label": "2",
+          "text": "澄清内涵"
+        },
+        {
+          "label": "3",
+          "text": "分步提问"
+        },
+        {
+          "label": "4",
+          "text": "结构化输入"
+        }
+      ],
+      "rightItems": [
+        {
+          "label": "A",
+          "text": "消除语句歧义，明确描述对象"
+        },
+        {
+          "label": "B",
+          "text": "参考范例，让 AI 模仿指定风格输出"
+        },
+        {
+          "label": "C",
+          "text": "分多轮对话，逐步细化完善答案"
+        },
+        {
+          "label": "D",
+          "text": "拆分角色、任务、要求，指令更清晰"
+        }
+      ],
+      "options": [
+        {
+          "label": "A",
+          "text": "消除语句歧义，明确描述对象"
+        },
+        {
+          "label": "B",
+          "text": "参考范例，让 AI 模仿指定风格输出"
+        },
+        {
+          "label": "C",
+          "text": "分多轮对话，逐步细化完善答案"
+        },
+        {
+          "label": "D",
+          "text": "拆分角色、任务、要求，指令更清晰"
+        }
+      ],
+      "answer": {
+        "1": "B",
+        "2": "A",
+        "3": "C",
+        "4": "D"
+      },
+      "analysis": ""
+    },
+    {
+      "id": 188,
+      "qid": "406483941",
+      "type": "连线题",
+      "score": "",
+      "stem": "将下述人工智能的发展历史事件，与其对应的时间正确连接。",
+      "images": [],
+      "leftItems": [
+        {
+          "label": "1",
+          "text": "达特茅斯会议，AI 诞生"
+        },
+        {
+          "label": "2",
+          "text": "图灵发表图灵测试论文"
+        },
+        {
+          "label": "3",
+          "text": "ChatGPT 正式对外发布"
+        },
+        {
+          "label": "4",
+          "text": "专家系统迎来发展高峰"
+        }
+      ],
+      "rightItems": [
+        {
+          "label": "A",
+          "text": "2022 年 11 月"
+        },
+        {
+          "label": "B",
+          "text": "1956 年"
+        },
+        {
+          "label": "C",
+          "text": "1950 年"
+        },
+        {
+          "label": "D",
+          "text": "20 世纪 80 年代"
+        }
+      ],
+      "options": [
+        {
+          "label": "A",
+          "text": "2022 年 11 月"
+        },
+        {
+          "label": "B",
+          "text": "1956 年"
+        },
+        {
+          "label": "C",
+          "text": "1950 年"
+        },
+        {
+          "label": "D",
+          "text": "20 世纪 80 年代"
+        }
+      ],
+      "answer": {
+        "1": "B",
+        "2": "C",
+        "3": "A",
+        "4": "D"
+      },
+      "analysis": ""
+    },
+    {
+      "id": 189,
+      "qid": "406483942",
+      "type": "连线题",
+      "score": "",
+      "stem": "将BROKE提示词框架名词，与其对应的含义正确连接。",
+      "images": [],
+      "leftItems": [
+        {
+          "label": "1",
+          "text": "Background"
+        },
+        {
+          "label": "2",
+          "text": "Role"
+        },
+        {
+          "label": "3",
+          "text": "Objectives"
+        },
+        {
+          "label": "4",
+          "text": "Key Result"
+        },
+        {
+          "label": "5",
+          "text": "Evolve"
+        }
+      ],
+      "rightItems": [
+        {
+          "label": "A",
+          "text": "对输出内容进行改进或优化"
+        },
+        {
+          "label": "B",
+          "text": "提供任务相关背景信息，帮助AIGC工具理解上下文"
+        },
+        {
+          "label": "C",
+          "text": "指定AIGC工具扮演的角色"
+        },
+        {
+          "label": "D",
+          "text": "指定输出的关键要求"
+        },
+        {
+          "label": "E",
+          "text": "明确任务的具体目标"
+        }
+      ],
+      "options": [
+        {
+          "label": "A",
+          "text": "对输出内容进行改进或优化"
+        },
+        {
+          "label": "B",
+          "text": "提供任务相关背景信息，帮助AIGC工具理解上下文"
+        },
+        {
+          "label": "C",
+          "text": "指定AIGC工具扮演的角色"
+        },
+        {
+          "label": "D",
+          "text": "指定输出的关键要求"
+        },
+        {
+          "label": "E",
+          "text": "明确任务的具体目标"
+        }
+      ],
+      "answer": {
+        "1": "B",
+        "2": "C",
+        "3": "E",
+        "4": "D",
+        "5": "A"
+      },
+      "analysis": ""
+    },
+    {
+      "id": 190,
+      "qid": "406483978",
+      "type": "连线题",
+      "score": "",
+      "stem": "3D 基础名词与对应含义，请将左右两侧一一对应。",
+      "images": [],
+      "leftItems": [
+        {
+          "label": "1",
+          "text": "顶点"
+        },
+        {
+          "label": "2",
+          "text": "网格"
+        },
+        {
+          "label": "3",
+          "text": "UV 坐标"
+        },
+        {
+          "label": "4",
+          "text": "拓扑"
+        }
+      ],
+      "rightItems": [
+        {
+          "label": "A",
+          "text": "大量顶点、边、面组合而成完整三维形状"
+        },
+        {
+          "label": "B",
+          "text": "3D 空间中由 x/y/z 确定坐标，3D 模型最小组成单元"
+        },
+        {
+          "label": "C",
+          "text": "网格中边和面的排列、分布走向"
+        },
+        {
+          "label": "D",
+          "text": "将三维模型表面展开成二维平面的映射系统"
+        }
+      ],
+      "options": [
+        {
+          "label": "A",
+          "text": "大量顶点、边、面组合而成完整三维形状"
+        },
+        {
+          "label": "B",
+          "text": "3D 空间中由 x/y/z 确定坐标，3D 模型最小组成单元"
+        },
+        {
+          "label": "C",
+          "text": "网格中边和面的排列、分布走向"
+        },
+        {
+          "label": "D",
+          "text": "将三维模型表面展开成二维平面的映射系统"
+        }
+      ],
+      "answer": {
+        "1": "B",
+        "2": "A",
+        "3": "D",
+        "4": "C"
+      },
+      "analysis": ""
+    },
+    {
+      "id": 191,
+      "qid": "406483999",
+      "type": "连线题",
+      "score": "",
+      "stem": "文件格式与典型用途，请将左右两侧一一对应。",
+      "images": [],
+      "leftItems": [
+        {
+          "label": "1",
+          "text": "STL"
+        },
+        {
+          "label": "2",
+          "text": "FBX"
+        },
+        {
+          "label": "3",
+          "text": "GLB"
+        },
+        {
+          "label": "4",
+          "text": "OBJ"
+        }
+      ],
+      "rightItems": [
+        {
+          "label": "A",
+          "text": "游戏影视，支持骨骼、动画、灯光完整场景"
+        },
+        {
+          "label": "B",
+          "text": "3D 打印，仅存储三角面片几何信息"
+        },
+        {
+          "label": "C",
+          "text": "网页 AR/VR，全部资源封装到单一二进制文件"
+        },
+        {
+          "label": "D",
+          "text": "静态模型交换，材质依靠外部 mtl 文件"
+        }
+      ],
+      "options": [
+        {
+          "label": "A",
+          "text": "游戏影视，支持骨骼、动画、灯光完整场景"
+        },
+        {
+          "label": "B",
+          "text": "3D 打印，仅存储三角面片几何信息"
+        },
+        {
+          "label": "C",
+          "text": "网页 AR/VR，全部资源封装到单一二进制文件"
+        },
+        {
+          "label": "D",
+          "text": "静态模型交换，材质依靠外部 mtl 文件"
+        }
+      ],
+      "answer": {
+        "1": "B",
+        "2": "A",
+        "3": "C",
+        "4": "D"
+      },
+      "analysis": ""
+    },
+    {
+      "id": 192,
+      "qid": "406484000",
+      "type": "连线题",
+      "score": "",
+      "stem": "请将左右两侧一一对应，选出左侧AI伦理核心概念的正确释义。",
+      "images": [],
+      "leftItems": [
+        {
+          "label": "1",
+          "text": "人工智能伦理"
+        },
+        {
+          "label": "2",
+          "text": "算法偏见"
+        },
+        {
+          "label": "3",
+          "text": "人的主体性"
+        },
+        {
+          "label": "4",
+          "text": "可追溯性"
+        }
+      ],
+      "rightItems": [
+        {
+          "label": "A",
+          "text": "AI系统在决策过程中，根据不公平或扭曲的数据对特定群体产生不公平对待的行为"
+        },
+        {
+          "label": "B",
+          "text": "开展人工智能研究、设计、开发、服务和使用等全生命周期活动需要遵循的价值理念和行为规范"
+        },
+        {
+          "label": "C",
+          "text": "全流程记录输入信息、模型参数配置、中间运算逻辑及输出结果等数据，为事后回溯提供原始依据"
+        },
+        {
+          "label": "D",
+          "text": "人作为活动主体在与客体相互作用过程中表现出来的自主性、能动性和创造性"
+        }
+      ],
+      "options": [
+        {
+          "label": "A",
+          "text": "AI系统在决策过程中，根据不公平或扭曲的数据对特定群体产生不公平对待的行为"
+        },
+        {
+          "label": "B",
+          "text": "开展人工智能研究、设计、开发、服务和使用等全生命周期活动需要遵循的价值理念和行为规范"
+        },
+        {
+          "label": "C",
+          "text": "全流程记录输入信息、模型参数配置、中间运算逻辑及输出结果等数据，为事后回溯提供原始依据"
+        },
+        {
+          "label": "D",
+          "text": "人作为活动主体在与客体相互作用过程中表现出来的自主性、能动性和创造性"
+        }
+      ],
+      "answer": {
+        "1": "B",
+        "2": "A",
+        "3": "D",
+        "4": "C"
+      },
+      "analysis": ""
+    },
+    {
+      "id": 193,
+      "qid": "406484001",
+      "type": "连线题",
+      "score": "",
+      "stem": "请将左右两侧一一对应，选出左侧伦理治理原则的核心内涵。",
+      "images": [],
+      "leftItems": [
+        {
+          "label": "1",
+          "text": "尊重人类"
+        },
+        {
+          "label": "2",
+          "text": "公正性"
+        },
+        {
+          "label": "3",
+          "text": "可解释性"
+        },
+        {
+          "label": "4",
+          "text": "负责任"
+        }
+      ],
+      "rightItems": [
+        {
+          "label": "A",
+          "text": "推动AI发展从单一追求“技术效益”转向“兼顾社会成本与公共福祉”"
+        },
+        {
+          "label": "B",
+          "text": "防止技术异化为侵犯人类权益的工具，确保AI的技术逻辑服从人类的价值逻辑"
+        },
+        {
+          "label": "C",
+          "text": "破解“黑箱困境”，让AI从“不可知”走向“可知”"
+        },
+        {
+          "label": "D",
+          "text": "消除算法的“隐性歧视”，从社会偏见的“放大器”转变为促进社会公平的工具"
+        }
+      ],
+      "options": [
+        {
+          "label": "A",
+          "text": "推动AI发展从单一追求“技术效益”转向“兼顾社会成本与公共福祉”"
+        },
+        {
+          "label": "B",
+          "text": "防止技术异化为侵犯人类权益的工具，确保AI的技术逻辑服从人类的价值逻辑"
+        },
+        {
+          "label": "C",
+          "text": "破解“黑箱困境”，让AI从“不可知”走向“可知”"
+        },
+        {
+          "label": "D",
+          "text": "消除算法的“隐性歧视”，从社会偏见的“放大器”转变为促进社会公平的工具"
+        }
+      ],
+      "answer": {
+        "1": "B",
+        "2": "D",
+        "3": "C",
+        "4": "A"
+      },
+      "analysis": ""
+    }
+  ],
+  "answerSourceUrl": "https://mooc1.chaoxing.com/mooc-ans/mooc2/work/view?courseId=252308789&classId=155191393&cpi=584164248&workId=58865122&answerId=55238333&enc=a680393b101cdf4a6c4ffcc7375809ff"
+}
