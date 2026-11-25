@@ -778,6 +778,7 @@
   <main class="main-grid">
     <section class="card" id="questionCard">
       <div id="examBanner" class="exam-banner" style="display:none;"></div>
+      <div id="wrongBanner" class="exam-banner" style="display:none;"></div>
       <div id="questionContent"></div>
     </section>
 
@@ -834,6 +835,9 @@
     let examSubmitted = false;
     let examAnswers = {}; // qid -> user answer during exam
     let randomOrderIds = null;
+    let wrongSubMode = 'practice'; // 'practice' (刷错题) | 'review' (仅看解析)
+    let wrongSessionResults = {}; // qid -> { userAnswer, isCorrect }
+    let wrongRoundIds = null; // snapshot of qids for current wrong-book round
 
     function loadState() {
       try {
@@ -846,7 +850,8 @@
             bookmarkIds: parsed.bookmarkIds || [],
             customAnswers: parsed.customAnswers || {}, // qid -> { answer, analysis }
             theme: parsed.theme || 'light',
-            autoNext: !!parsed.autoNext
+            autoNext: !!parsed.autoNext,
+            autoRemoveWrong: parsed.autoRemoveWrong !== undefined ? !!parsed.autoRemoveWrong : true
           };
         }
       } catch (e) {}
@@ -856,7 +861,8 @@
         bookmarkIds: [],
         customAnswers: {},
         theme: 'light',
-        autoNext: false
+        autoNext: false,
+        autoRemoveWrong: true
       };
     }
 
@@ -943,8 +949,11 @@
       let base = QUIZ_DATA.questions.map(getEffectiveQuestion);
 
       if (mode === 'wrong') {
-        const set = new Set(state.wrongIds);
-        base = base.filter(q => set.has(q.qid));
+        if (!wrongRoundIds) {
+          wrongRoundIds = [...state.wrongIds];
+        }
+        const byQid = new Map(base.map(q => [q.qid, q]));
+        base = wrongRoundIds.map(id => byQid.get(id)).filter(Boolean);
       } else if (mode === 'bookmark') {
         const set = new Set(state.bookmarkIds);
         base = base.filter(q => set.has(q.qid));
@@ -1040,6 +1049,15 @@
           } else if (hasAns) {
             cls.push('ans');
           }
+        } else if (mode === 'wrong') {
+          if (wrongSubMode === 'practice') {
+            const rec = wrongSessionResults[q.qid];
+            if (rec) {
+              if (rec.isCorrect === true) cls.push('ok');
+              else if (rec.isCorrect === false) cls.push('err');
+              else cls.push('ans');
+            }
+          }
         } else if (mode !== 'study') {
           const rec = state.practiceResults[q.qid];
           if (rec) {
@@ -1114,6 +1132,81 @@
       }
     }
 
+    function renderWrongBanner() {
+      const banner = document.getElementById('wrongBanner');
+      if (mode !== 'wrong' || (deck.length === 0 && state.wrongIds.length === 0)) {
+        banner.style.display = 'none';
+        return;
+      }
+      banner.style.display = 'flex';
+      const roundEntries = deck.map(q => wrongSessionResults[q.qid]).filter(Boolean);
+      const doneCount = roundEntries.length;
+      const okCount = roundEntries.filter(r => r.isCorrect === true).length;
+      const isPractice = wrongSubMode === 'practice';
+
+      banner.innerHTML =
+        '<div>' +
+          '<strong>' + (isPractice ? '📝 刷错题模式' : '👁 错题看解析') + '</strong> · ' +
+          (isPractice ? '本轮已刷 ' + doneCount + ' / ' + deck.length + ' 题（答对 ' + okCount + ' 题）' : '共 ' + deck.length + ' 道错题') +
+        '</div>' +
+        '<div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">' +
+          '<label class="toggle-chip" title="在刷错题模式下答对后自动移出错题本">' +
+            '<input type="checkbox" id="autoRemoveWrongChk" ' + (state.autoRemoveWrong ? 'checked' : '') + ' /> 答对自动移出' +
+          '</label>' +
+          '<button class="btn ' + (isPractice ? 'btn-active' : '') + '" id="wrongSubPracticeBtn" type="button">📝 刷错题</button>' +
+          '<button class="btn ' + (!isPractice ? 'btn-active' : '') + '" id="wrongSubReviewBtn" type="button">👁 看解析</button>' +
+          '<button class="btn" id="wrongShuffleBtn" type="button">🔀 打乱重刷</button>' +
+          '<button class="btn" id="wrongRestartBtn" type="button">↺ 再刷一轮</button>' +
+          '<button class="btn btn-danger" id="wrongClearBtn" type="button">清空错题本</button>' +
+        '</div>';
+
+      document.getElementById('autoRemoveWrongChk').addEventListener('change', (e) => {
+        state.autoRemoveWrong = e.target.checked;
+        saveState();
+      });
+      document.getElementById('wrongSubPracticeBtn').addEventListener('click', () => {
+        wrongSubMode = 'practice';
+        renderWrongBanner();
+        renderQuestion();
+        renderNavGrid();
+      });
+      document.getElementById('wrongSubReviewBtn').addEventListener('click', () => {
+        wrongSubMode = 'review';
+        renderWrongBanner();
+        renderQuestion();
+        renderNavGrid();
+      });
+      document.getElementById('wrongShuffleBtn').addEventListener('click', () => {
+        wrongSubMode = 'practice';
+        wrongRoundIds = shuffleArray(state.wrongIds);
+        wrongSessionResults = {};
+        pendingMulti = {};
+        pendingMatch = {};
+        currentIdx = 0;
+        refreshAll();
+      });
+      document.getElementById('wrongRestartBtn').addEventListener('click', () => {
+        wrongSubMode = 'practice';
+        wrongRoundIds = [...state.wrongIds];
+        wrongSessionResults = {};
+        pendingMulti = {};
+        pendingMatch = {};
+        currentIdx = 0;
+        refreshAll();
+      });
+      document.getElementById('wrongClearBtn').addEventListener('click', () => {
+        if (!confirm('确定要清空所有错题吗？')) return;
+        state.wrongIds = [];
+        wrongRoundIds = [];
+        wrongSessionResults = {};
+        pendingMulti = {};
+        pendingMatch = {};
+        saveState();
+        currentIdx = 0;
+        refreshAll();
+      });
+    }
+
     // Temporary in-progress selections before submit (for 多选/连线 in practice modes)
     let pendingMulti = {}; // qid -> array of letters
     let pendingMatch = {}; // qid -> { "1": "B", ... }
@@ -1130,11 +1223,14 @@
 
       const q = deck[currentIdx];
       const isBookmarked = state.bookmarkIds.includes(q.qid);
-      const practiceRec = state.practiceResults[q.qid];
+      const isWrongMode = mode === 'wrong';
+      const isWrongReview = isWrongMode && wrongSubMode === 'review';
+      const practiceRec = isWrongMode ? wrongSessionResults[q.qid] : state.practiceResults[q.qid];
       const isStudy = mode === 'study';
+      const isRevealMode = isStudy || isWrongReview;
       const isExam = mode === 'exam';
 
-      const isLocked = isStudy || (isExam && examSubmitted) || (!isExam && !!practiceRec);
+      const isLocked = isRevealMode || (isExam && examSubmitted) || (!isExam && !!practiceRec);
       const userAnswer = isExam
         ? examAnswers[q.qid]
         : (practiceRec ? practiceRec.userAnswer : (q.type === '多选题' ? (pendingMulti[q.qid] || []) : (q.type === '连线题' ? (pendingMatch[q.qid] || {}) : undefined)));
@@ -1150,30 +1246,31 @@
           '</div>' +
           '<div style="display:flex;gap:8px;">' +
             '<button class="btn ' + (isBookmarked ? 'btn-active' : '') + '" id="bmToggleBtn" type="button">' + (isBookmarked ? '★ 已收藏' : '☆ 收藏') + '</button>' +
-            (mode === 'wrong' ? '<button class="btn" id="removeWrongBtn" type="button">移出错题本</button>' : '') +
+            (mode === 'wrong' && state.wrongIds.includes(q.qid) ? '<button class="btn" id="removeWrongBtn" type="button">移出错题本</button>' : '') +
             '<button class="btn" id="editAnsBtn" type="button">✎ 编辑答案</button>' +
           '</div>' +
         '</div>' +
         '<div class="q-stem">' + escapeHtmlStr(q.stem) + '</div>';
 
       if (q.type === '连线题') {
-        bodyHtml += renderMatchingBody(q, userAnswer, isLocked, isStudy, isExam);
+        bodyHtml += renderMatchingBody(q, userAnswer, isLocked, isRevealMode, isExam);
       } else {
-        bodyHtml += renderChoiceBody(q, userAnswer, isLocked, isStudy, isExam);
+        bodyHtml += renderChoiceBody(q, userAnswer, isLocked, isRevealMode, isExam);
       }
 
       // Feedback block
-      const showFeedback = isStudy || (isExam && examSubmitted) || (!isExam && !!practiceRec);
+      const showFeedback = isRevealMode || (isExam && examSubmitted) || (!isExam && !!practiceRec);
       if (showFeedback) {
         const correctStr = formatCorrectAnswer(q);
         let boxCls = 'feedback-box';
         let titleHtml = '参考答案：<span style="color:var(--success)">' + escapeHtmlStr(correctStr) + '</span>';
 
-        if (!isStudy) {
+        if (!isRevealMode) {
           const ok = checkIsCorrect(q, userAnswer);
           if (ok === true) {
             boxCls += ' ok';
-            titleHtml = '<span style="color:var(--success)">✔ 回答正确</span><span>正确答案：' + escapeHtmlStr(correctStr) + '</span>';
+            const removedTag = (isWrongMode && state.autoRemoveWrong && !state.wrongIds.includes(q.qid)) ? '（已自动移出错题本）' : '';
+            titleHtml = '<span style="color:var(--success)">✔ 回答正确' + removedTag + '</span><span>正确答案：' + escapeHtmlStr(correctStr) + '</span>';
           } else if (ok === false) {
             boxCls += ' err';
             const userStr = q.type === '连线题'
@@ -1198,7 +1295,7 @@
             '<button class="btn btn-primary" id="nextBtn" type="button" ' + (currentIdx >= deck.length - 1 ? 'disabled' : '') + '>下一题 →</button>' +
           '</div>' +
           '<div style="display:flex;gap:8px;flex-wrap:wrap;">' +
-            (!isStudy && !isExam && practiceRec ? '<button class="btn" id="redoOneBtn" type="button">重做本题</button>' : '') +
+            (!isRevealMode && !isExam && practiceRec ? '<button class="btn" id="redoOneBtn" type="button">重做本题</button>' : '') +
           '</div>' +
         '</div>';
 
@@ -1300,13 +1397,19 @@
     function submitPracticeAnswer(q, val) {
       const isCorrect = checkIsCorrect(q, val);
       state.practiceResults[q.qid] = { userAnswer: val, isCorrect };
-      if (isCorrect === false) {
+      if (mode === 'wrong') {
+        wrongSessionResults[q.qid] = { userAnswer: val, isCorrect };
+        if (isCorrect === false && !state.wrongIds.includes(q.qid)) {
+          state.wrongIds.push(q.qid);
+        } else if (isCorrect === true && state.autoRemoveWrong) {
+          state.wrongIds = state.wrongIds.filter(id => id !== q.qid);
+        }
+      } else if (isCorrect === false) {
         if (!state.wrongIds.includes(q.qid)) state.wrongIds.push(q.qid);
-      } else if (isCorrect === true && mode === 'wrong') {
-        // Keep in wrongIds unless user clicks remove, or user prefers manual? Let's keep manual remove button so they don't accidentally lose it mid-review.
       }
       saveState();
       updateHeaderStats();
+      if (mode === 'wrong') renderWrongBanner();
       renderQuestion();
       renderNavGrid();
 
@@ -1346,18 +1449,22 @@
       });
       document.getElementById('removeWrongBtn')?.addEventListener('click', () => {
         state.wrongIds = state.wrongIds.filter(id => id !== q.qid);
+        if (wrongRoundIds) wrongRoundIds = wrongRoundIds.filter(id => id !== q.qid);
+        delete wrongSessionResults[q.qid];
         saveState();
-        updateHeaderStats();
-        buildDeck();
-        renderQuestion();
-        renderNavGrid();
+        refreshAll();
       });
       document.getElementById('redoOneBtn')?.addEventListener('click', () => {
-        delete state.practiceResults[q.qid];
+        if (mode === 'wrong') {
+          delete wrongSessionResults[q.qid];
+        } else {
+          delete state.practiceResults[q.qid];
+        }
         delete pendingMulti[q.qid];
         delete pendingMatch[q.qid];
         saveState();
         updateHeaderStats();
+        if (mode === 'wrong') renderWrongBanner();
         renderQuestion();
         renderNavGrid();
       });
@@ -1436,6 +1543,7 @@
       buildDeck();
       updateHeaderStats();
       renderExamBanner();
+      renderWrongBanner();
       renderQuestion();
       renderNavGrid();
     }
@@ -1503,6 +1611,12 @@
           btn.classList.add('btn-active');
           mode = btn.getAttribute('data-mode');
           currentIdx = 0;
+          if (mode === 'wrong') {
+            wrongRoundIds = [...state.wrongIds];
+            wrongSessionResults = {};
+            pendingMulti = {};
+            pendingMatch = {};
+          }
           document.getElementById('reshuffleBtn').style.display = mode === 'random' ? 'inline-flex' : 'none';
           refreshAll();
         });
@@ -1525,6 +1639,8 @@
         state.practiceResults = {};
         state.wrongIds = [];
         state.bookmarkIds = [];
+        wrongRoundIds = [];
+        wrongSessionResults = {};
         examAnswers = {};
         examSubmitted = false;
         pendingMulti = {};
