@@ -663,41 +663,170 @@
       color: var(--text-muted);
     }
 
-    @media (max-width: 640px) {
+    /* Mobile-only elements hidden on desktop */
+    .mobile-header-actions,
+    .mobile-stat-summary,
+    .topbar-progress,
+    .mobile-bottom-bar,
+    .sheet-backdrop,
+    .sheet-close-btn,
+    .mobile-search-chip {
+      display: none;
+    }
+
+    @media (max-width: 768px) {
       body {
-        padding-bottom: env(safe-area-inset-bottom, 12px);
+        padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px));
       }
+
+      /* 1. Slim single-row sticky header */
       .topbar {
-        padding: 10px 12px;
+        padding: 8px 12px 11px;
         gap: 8px;
+        flex-wrap: nowrap;
+        min-height: 50px;
+      }
+      .brand {
+        gap: 8px;
+        min-width: 0;
+        flex: 1;
+      }
+      .brand-badge,
+      .brand-sub,
+      .stats-bar,
+      .top-actions {
+        display: none;
       }
       .brand h1 {
         font-size: 16px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
-      .stats-bar {
-        gap: 6px;
+      .mobile-stat-summary {
+        display: inline-flex;
+        align-items: center;
         font-size: 12px;
+        font-weight: 600;
+        color: var(--primary);
+        background: var(--primary-soft);
+        padding: 3px 8px;
+        border-radius: 999px;
+        white-space: nowrap;
+        flex-shrink: 0;
       }
-      .stat-pill {
-        padding: 4px 8px;
+      .mobile-header-actions {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        flex-shrink: 0;
       }
-      .controls-wrap,
-      .main-grid {
-        padding: 0 10px;
+      .icon-btn {
+        width: 34px;
+        height: 34px;
+        padding: 0;
+        justify-content: center;
+        border-radius: 10px;
+        font-size: 15px;
+      }
+      .topbar-progress {
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 3px;
+        background: var(--surface-2);
+      }
+      .topbar-progress-fill {
+        height: 100%;
+        width: 0%;
+        background: linear-gradient(90deg, var(--primary), #22c55e);
+        transition: width 0.25s ease;
+      }
+
+      /* 2. Single-row horizontally scrollable mode & type bars */
+      .controls-wrap {
+        margin: 8px auto 0;
+        padding: 0 12px;
       }
       .controls-card {
-        padding: 10px 12px;
+        padding: 8px 10px;
+        gap: 7px;
+        border-radius: 12px;
+      }
+      .controls-row {
+        gap: 6px;
+      }
+      .mode-tabs,
+      .type-filters {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        width: 100%;
+        padding-bottom: 1px;
+      }
+      .mode-tabs::-webkit-scrollbar,
+      .type-filters::-webkit-scrollbar {
+        display: none;
+      }
+      .mode-tabs .btn,
+      .type-filters .btn {
+        flex-shrink: 0;
+        white-space: nowrap;
+        padding: 6px 11px;
+        font-size: 12.5px;
+        border-radius: 999px;
+      }
+      .search-box,
+      #answerBannerText,
+      .controls-card .progress-track {
+        display: none;
+      }
+      .mobile-search-chip.active {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        padding: 6px 10px;
+        border-radius: 9px;
+        background: var(--primary-soft);
+        color: var(--primary);
+        font-size: 12.5px;
+      }
+
+      /* 3. Airy question card */
+      .main-grid {
+        margin: 10px auto 16px;
+        padding: 0 12px;
+        gap: 12px;
       }
       .card {
-        padding: 16px;
+        padding: 18px 16px;
+        border-radius: 16px;
+      }
+      .q-header {
+        margin-bottom: 12px;
+        gap: 8px;
+      }
+      .q-header .btn {
+        padding: 5px 9px;
+        font-size: 12px;
       }
       .q-stem {
-        font-size: 16px;
+        font-size: 16.5px;
+        line-height: 1.65;
+        margin-bottom: 16px;
+      }
+      .options-list {
+        gap: 11px;
       }
       .option-item {
-        min-height: 46px;
-        padding: 11px 12px;
+        min-height: 50px;
+        padding: 13px 14px;
         font-size: 15px;
+        border-radius: 12px;
         -webkit-tap-highlight-color: transparent;
       }
       .match-left-label,
@@ -705,17 +834,99 @@
         min-width: 0;
         width: 100%;
       }
-      .search-box {
-        max-width: 100%;
-        min-width: 0;
-        width: 100%;
+      #wrongBanner,
+      #examBanner {
+        padding: 10px 12px;
+        font-size: 13px;
+        gap: 8px;
+        margin-bottom: 14px;
+      }
+      #wrongBanner .btn,
+      #examBanner .btn {
+        padding: 5px 9px;
+        font-size: 12px;
+      }
+      .q-footer {
+        margin-top: 14px;
+        padding-top: 12px;
+      }
+      .q-footer:empty {
+        display: none;
+      }
+      #prevBtn,
+      #nextBtn,
+      .shortcut-hint {
+        display: none;
+      }
+
+      /* 4. Fixed thumb-friendly bottom navigation bar */
+      .mobile-bottom-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 40;
+        background: var(--surface);
+        border-top: 1px solid var(--border);
+        padding: 8px 12px calc(10px + env(safe-area-inset-bottom, 0px));
+        box-shadow: 0 -4px 18px rgba(15, 23, 42, 0.08);
+      }
+      .mobile-bottom-bar .btn {
+        flex: 1;
+        justify-content: center;
+        min-height: 40px;
+        font-size: 13.5px;
+        border-radius: 10px;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .mobile-bottom-bar .btn-sheet {
+        flex: 0.9;
+        background: var(--surface-2);
+      }
+
+      /* 5. Bottom-sheet 答题卡 & 设置 modal */
+      .sheet-backdrop.open {
+        display: block;
+        position: fixed;
+        inset: 0;
+        z-index: 45;
+        background: rgba(15, 23, 42, 0.5);
       }
       .sidebar-card {
-        position: static;
-        padding: 14px;
+        display: none;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: auto;
+        z-index: 50;
+        border-radius: 18px 18px 0 0;
+        max-height: 76vh;
+        padding: 16px 16px calc(18px + env(safe-area-inset-bottom, 0px));
+        overflow-y: auto;
+      }
+      .sidebar-card.sheet-open {
+        display: block;
+      }
+      .sheet-close-btn {
+        display: inline-flex;
       }
       .nav-grid {
-        max-height: 260px;
+        max-height: 46vh;
+      }
+
+      .modal-backdrop {
+        align-items: flex-end;
+        padding: 0;
+      }
+      .modal {
+        border-radius: 18px 18px 0 0;
+        max-width: 100%;
+        padding: 18px 16px calc(20px + env(safe-area-inset-bottom, 0px));
       }
     }
   </style>
@@ -728,6 +939,7 @@
         <h1 id="quizTitle">题库加载中...</h1>
         <div class="brand-sub" id="quizSubtitle">共 0 题</div>
       </div>
+      <span class="mobile-stat-summary" id="mobileStatSummary">0/0 · 0%</span>
     </div>
 
     <div class="stats-bar">
@@ -745,6 +957,12 @@
       <button class="btn" id="dataBtn" type="button">📦 导入/导出</button>
       <button class="btn btn-danger" id="resetBtn" type="button">↺ 重置进度</button>
     </div>
+
+    <div class="mobile-header-actions">
+      <button class="btn icon-btn" id="mSettingsBtn" type="button" title="搜索与设置">⚙</button>
+      <button class="btn icon-btn" id="mThemeBtn" type="button" title="切换主题">🌙</button>
+    </div>
+    <div class="topbar-progress"><div class="topbar-progress-fill" id="topbarProgressFill"></div></div>
   </header>
 
   <section class="controls-wrap">
@@ -769,6 +987,11 @@
         <div style="font-size:12px;color:var(--text-muted);" id="answerBannerText"></div>
       </div>
 
+      <div class="mobile-search-chip" id="mobileSearchChip">
+        <span id="mobileSearchChipText"></span>
+        <button class="btn" id="mobileClearSearchBtn" type="button" style="padding:2px 8px;font-size:12px;">清除</button>
+      </div>
+
       <div class="progress-track">
         <div class="progress-fill" id="progressFill"></div>
       </div>
@@ -782,10 +1005,14 @@
       <div id="questionContent"></div>
     </section>
 
-    <aside class="card sidebar-card">
+    <div class="sheet-backdrop" id="sheetBackdrop"></div>
+    <aside class="card sidebar-card" id="sidebarCard">
       <div class="sidebar-head">
         <h3>答题卡 (<span id="deckCount">0</span> 题)</h3>
-        <span style="font-size:12px;color:var(--text-muted);" id="posLabel">0 / 0</span>
+        <div style="display:flex;align-items:center;gap:8px;">
+          <span style="font-size:12px;color:var(--text-muted);" id="posLabel">0 / 0</span>
+          <button class="btn sheet-close-btn" id="closeSheetBtn" type="button" style="padding:3px 9px;">✕</button>
+        </div>
       </div>
       <div class="legend">
         <span><i class="dot cur"></i> 当前</span>
@@ -799,6 +1026,40 @@
       </div>
     </aside>
   </main>
+
+  <nav class="mobile-bottom-bar" id="mobileBottomBar">
+    <button class="btn" id="mPrevBtn" type="button">← 上一题</button>
+    <button class="btn btn-sheet" id="mCardSheetBtn" type="button">📋 0 / 0</button>
+    <button class="btn btn-primary" id="mNextBtn" type="button">下一题 →</button>
+  </nav>
+
+  <div class="modal-backdrop" id="mobileMenuModal">
+    <div class="modal">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+        <h3>筛选与刷题设置</h3>
+        <button class="btn" id="closeMobileMenuBtn" type="button">关闭</button>
+      </div>
+      <div class="stats-bar" style="display:flex;margin-bottom:14px;gap:8px;">
+        <div class="stat-pill">已答 <strong id="mStatDone">0</strong>/<span id="mStatTotal">0</span></div>
+        <div class="stat-pill good">答对 <strong id="mStatCorrect">0</strong></div>
+        <div class="stat-pill bad">错题 <strong id="mStatWrong">0</strong></div>
+        <div class="stat-pill">正确率 <strong id="mStatAcc">0%</strong></div>
+      </div>
+      <div style="margin-bottom:12px;">
+        <input type="search" id="mSearchInput" placeholder="搜索题干、选项、解析或知识点..." style="width:100%;padding:9px 12px;border-radius:10px;border:1px solid var(--border);background:var(--surface-2);color:var(--text);font-size:14px;" />
+      </div>
+      <div style="margin-bottom:14px;">
+        <label class="toggle-chip" style="font-size:14px;color:var(--text);">
+          <input type="checkbox" id="mAutoNextChk" /> 答对后自动跳到下一题
+        </label>
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;">
+        <button class="btn" id="mReshuffleBtn" type="button" style="display:none;">🔀 重新洗牌</button>
+        <button class="btn" id="mDataBtn" type="button">📦 导入/导出题库</button>
+        <button class="btn btn-danger" id="mResetBtn" type="button">↺ 重置进度</button>
+      </div>
+    </div>
+  </div>
 
   <div class="modal-backdrop" id="dataModal">
     <div class="modal">
@@ -1018,6 +1279,7 @@
       const done = entries.length;
       const correct = entries.filter(r => r.isCorrect === true).length;
       const acc = done > 0 ? Math.round((correct / done) * 100) : 0;
+      const pct = total > 0 ? (done / total) * 100 : 0;
 
       document.getElementById('statDone').textContent = done;
       document.getElementById('statTotal').textContent = total;
@@ -1026,7 +1288,46 @@
       document.getElementById('statAcc').textContent = acc + '%';
       document.getElementById('wrongTabCount').textContent = state.wrongIds.length;
       document.getElementById('bmTabCount').textContent = state.bookmarkIds.length;
-      document.getElementById('progressFill').style.width = (total > 0 ? (done / total) * 100 : 0) + '%';
+      document.getElementById('progressFill').style.width = pct + '%';
+
+      document.getElementById('mobileStatSummary').textContent = done + '/' + total + ' · ' + acc + '%';
+      document.getElementById('topbarProgressFill').style.width = pct + '%';
+      document.getElementById('mStatDone').textContent = done;
+      document.getElementById('mStatTotal').textContent = total;
+      document.getElementById('mStatCorrect').textContent = correct;
+      document.getElementById('mStatWrong').textContent = state.wrongIds.length;
+      document.getElementById('mStatAcc').textContent = acc + '%';
+    }
+
+    function openCardSheet() {
+      document.getElementById('sidebarCard').classList.add('sheet-open');
+      document.getElementById('sheetBackdrop').classList.add('open');
+    }
+
+    function closeCardSheet() {
+      document.getElementById('sidebarCard').classList.remove('sheet-open');
+      document.getElementById('sheetBackdrop').classList.remove('open');
+    }
+
+    function updateMobileNavAndChips() {
+      const posTxt = deck.length > 0 ? (currentIdx + 1) + ' / ' + deck.length : '0 / 0';
+      const mPrev = document.getElementById('mPrevBtn');
+      const mNext = document.getElementById('mNextBtn');
+      const mCard = document.getElementById('mCardSheetBtn');
+      if (mPrev) mPrev.disabled = currentIdx <= 0 || deck.length === 0;
+      if (mNext) mNext.disabled = currentIdx >= deck.length - 1 || deck.length === 0;
+      if (mCard) mCard.textContent = '📋 ' + posTxt;
+
+      const chip = document.getElementById('mobileSearchChip');
+      const chipTxt = document.getElementById('mobileSearchChipText');
+      if (chip && chipTxt) {
+        if (searchQuery.trim()) {
+          chip.classList.add('active');
+          chipTxt.textContent = '🔍 搜索：“' + searchQuery.trim() + '”（' + deck.length + ' 题）';
+        } else {
+          chip.classList.remove('active');
+        }
+      }
     }
 
     function renderNavGrid() {
@@ -1075,8 +1376,10 @@
           currentIdx = Number(btn.getAttribute('data-idx'));
           renderQuestion();
           renderNavGrid();
+          closeCardSheet();
         });
       });
+      updateMobileNavAndChips();
     }
 
     function renderExamBanner() {
@@ -1590,20 +1893,29 @@
       if (state.theme === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
         document.getElementById('themeBtn').textContent = '☀ 亮色';
+        document.getElementById('mThemeBtn').textContent = '☀';
       }
       document.getElementById('autoNextChk').checked = state.autoNext;
+      document.getElementById('mAutoNextChk').checked = state.autoNext;
 
-      document.getElementById('autoNextChk').addEventListener('change', (e) => {
-        state.autoNext = e.target.checked;
+      function setAutoNext(val) {
+        state.autoNext = !!val;
+        document.getElementById('autoNextChk').checked = state.autoNext;
+        document.getElementById('mAutoNextChk').checked = state.autoNext;
         saveState();
-      });
+      }
+      document.getElementById('autoNextChk').addEventListener('change', (e) => setAutoNext(e.target.checked));
+      document.getElementById('mAutoNextChk').addEventListener('change', (e) => setAutoNext(e.target.checked));
 
-      document.getElementById('themeBtn').addEventListener('click', () => {
+      function toggleTheme() {
         state.theme = state.theme === 'dark' ? 'light' : 'dark';
         document.documentElement.setAttribute('data-theme', state.theme === 'dark' ? 'dark' : '');
         document.getElementById('themeBtn').textContent = state.theme === 'dark' ? '☀ 亮色' : '🌙 暗色';
+        document.getElementById('mThemeBtn').textContent = state.theme === 'dark' ? '☀' : '🌙';
         saveState();
-      });
+      }
+      document.getElementById('themeBtn').addEventListener('click', toggleTheme);
+      document.getElementById('mThemeBtn').addEventListener('click', toggleTheme);
 
       document.querySelectorAll('#modeTabs .btn').forEach(btn => {
         btn.addEventListener('click', () => {
@@ -1617,24 +1929,36 @@
             pendingMulti = {};
             pendingMatch = {};
           }
-          document.getElementById('reshuffleBtn').style.display = mode === 'random' ? 'inline-flex' : 'none';
+          const isRand = mode === 'random';
+          document.getElementById('reshuffleBtn').style.display = isRand ? 'inline-flex' : 'none';
+          document.getElementById('mReshuffleBtn').style.display = isRand ? 'inline-flex' : 'none';
           refreshAll();
         });
       });
 
-      document.getElementById('reshuffleBtn').addEventListener('click', () => {
+      function doReshuffle() {
         randomOrderIds = shuffleArray(QUIZ_DATA.questions.map(q => q.qid));
         currentIdx = 0;
         refreshAll();
+      }
+      document.getElementById('reshuffleBtn').addEventListener('click', doReshuffle);
+      document.getElementById('mReshuffleBtn').addEventListener('click', () => {
+        doReshuffle();
+        document.getElementById('mobileMenuModal').classList.remove('open');
       });
 
-      document.getElementById('searchInput').addEventListener('input', (e) => {
-        searchQuery = e.target.value;
+      function handleSearch(val) {
+        searchQuery = val;
+        document.getElementById('searchInput').value = val;
+        document.getElementById('mSearchInput').value = val;
         currentIdx = 0;
         refreshAll();
-      });
+      }
+      document.getElementById('searchInput').addEventListener('input', (e) => handleSearch(e.target.value));
+      document.getElementById('mSearchInput').addEventListener('input', (e) => handleSearch(e.target.value));
+      document.getElementById('mobileClearSearchBtn').addEventListener('click', () => handleSearch(''));
 
-      document.getElementById('resetBtn').addEventListener('click', () => {
+      function handleReset() {
         if (!confirm('确定要清空刷题记录、错题本和收藏夹吗？（不会删除题库本身）')) return;
         state.practiceResults = {};
         state.wrongIds = [];
@@ -1647,8 +1971,63 @@
         pendingMatch = {};
         saveState();
         currentIdx = 0;
+        document.getElementById('mobileMenuModal').classList.remove('open');
         refreshAll();
+      }
+      document.getElementById('resetBtn').addEventListener('click', handleReset);
+      document.getElementById('mResetBtn').addEventListener('click', handleReset);
+
+      // Mobile bottom bar & sheets
+      document.getElementById('mPrevBtn').addEventListener('click', () => {
+        if (currentIdx > 0) { currentIdx--; renderQuestion(); renderNavGrid(); }
       });
+      document.getElementById('mNextBtn').addEventListener('click', () => {
+        if (currentIdx < deck.length - 1) { currentIdx++; renderQuestion(); renderNavGrid(); }
+      });
+      document.getElementById('mCardSheetBtn').addEventListener('click', () => {
+        if (document.getElementById('sidebarCard').classList.contains('sheet-open')) closeCardSheet();
+        else openCardSheet();
+      });
+      document.getElementById('closeSheetBtn').addEventListener('click', closeCardSheet);
+      document.getElementById('sheetBackdrop').addEventListener('click', closeCardSheet);
+
+      document.getElementById('mSettingsBtn').addEventListener('click', () => {
+        document.getElementById('mobileMenuModal').classList.add('open');
+      });
+      document.getElementById('closeMobileMenuBtn').addEventListener('click', () => {
+        document.getElementById('mobileMenuModal').classList.remove('open');
+      });
+      document.getElementById('mobileMenuModal').addEventListener('click', (e) => {
+        if (e.target.id === 'mobileMenuModal') document.getElementById('mobileMenuModal').classList.remove('open');
+      });
+      document.getElementById('mDataBtn').addEventListener('click', () => {
+        document.getElementById('mobileMenuModal').classList.remove('open');
+        openModalWithQuestion(null);
+      });
+
+      // Touch swipe navigation on questionCard
+      let touchStartX = 0, touchStartY = 0, touchIgnore = false;
+      const qCardEl = document.getElementById('questionCard');
+      qCardEl.addEventListener('touchstart', (e) => {
+        const tag = (e.target.tagName || '').toLowerCase();
+        touchIgnore = tag === 'select' || tag === 'input' || tag === 'textarea';
+        if (e.touches.length === 1) {
+          touchStartX = e.touches[0].clientX;
+          touchStartY = e.touches[0].clientY;
+        }
+      }, { passive: true });
+      qCardEl.addEventListener('touchend', (e) => {
+        if (touchIgnore || e.changedTouches.length !== 1) return;
+        const dx = e.changedTouches[0].clientX - touchStartX;
+        const dy = e.changedTouches[0].clientY - touchStartY;
+        if (Math.abs(dx) > 65 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+          if (dx < 0 && currentIdx < deck.length - 1) {
+            currentIdx++; renderQuestion(); renderNavGrid();
+          } else if (dx > 0 && currentIdx > 0) {
+            currentIdx--; renderQuestion(); renderNavGrid();
+          }
+        }
+      }, { passive: true });
 
       document.getElementById('dataBtn').addEventListener('click', () => openModalWithQuestion(null));
       document.getElementById('closeModalBtn').addEventListener('click', () => document.getElementById('dataModal').classList.remove('open'));
